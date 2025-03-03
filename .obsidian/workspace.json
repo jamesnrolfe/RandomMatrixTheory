@@ -140,16 +140,17 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Notes/15. Preliminaries for part 2/Spectral statistics for Beta=2 ensembles.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Spectral statistics for Beta=2 ensembles"
             }
           },
           {
-            "id": "ac67ded7ac210ce1",
+            "id": "8a28fff3e7b60df6",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -175,10 +176,11 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "1467babf5b71dfa5",
+  "active": "26b722c7301a9b2a",
   "lastOpenFiles": [
     "Handouts/Linear Algebra.pdf",
     "2025-03-03.md",
