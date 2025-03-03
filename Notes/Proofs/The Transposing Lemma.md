@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 #Proof
 
 The **Transposing Lemma** states that 

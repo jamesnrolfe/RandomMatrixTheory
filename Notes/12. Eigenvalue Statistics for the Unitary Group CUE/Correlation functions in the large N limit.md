@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 #Notes 
 
 Sometimes, we want to compare $R^{U(N)}_{2}(\theta_{1},\theta_{2})$, or more generally $R_{n}^{U(N)}$, for different values of $N$. In order to do this, we need to have a way to properly compare them, which requires us to scale each function such that the *average spacing* is equal to $1$.

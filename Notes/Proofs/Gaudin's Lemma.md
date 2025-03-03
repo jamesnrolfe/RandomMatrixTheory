@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 #Proof 
 
 **Gaudin's lemma** states that if we have a function of two variables $f(x,y)$ which is integrable on an interval $J$ and such that 

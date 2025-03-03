@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 A **measure** provides a description for how things are distributed in a mathematical set or space. 
 
 For example, consider integrating some function in spherical coordinates. 

@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 #Notes 
 
 We will now compute the correlation functions for any set of $N$ points on an interval $J \subseteq \mathbb{R}$ *whose j.p.d.f. is of the form*

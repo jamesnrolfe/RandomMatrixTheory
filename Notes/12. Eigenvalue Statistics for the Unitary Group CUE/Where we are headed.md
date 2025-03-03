@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 #Notes 
 
 Many random matrix ensembles have a beautiful structure that we can exploit to calculate eigenvalue statistics. In particular, the j.p.d.f. and correlation function can often be written as determinants. Let’s explore this. 

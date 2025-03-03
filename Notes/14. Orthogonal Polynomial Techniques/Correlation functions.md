@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 #Notes 
 
 The next important fact we will demonstrate is that the **kernel** $K_{N}(\lambda,\mu)$ from [[The joint probability density function as a determinant]] satisfies the conditions for [[Gaudin's Lemma]], where

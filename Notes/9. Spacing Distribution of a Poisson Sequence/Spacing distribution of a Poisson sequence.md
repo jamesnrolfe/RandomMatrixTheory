@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 #Notes 
 
 Consider $N$ *independent, identically distributed* random points in the interval $[0,L]$. This is akin to saying that we’ve randomly (uniformly) selected $N$ points from $0$ to $L$. 

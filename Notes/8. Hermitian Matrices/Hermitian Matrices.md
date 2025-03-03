@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 #Notes 
 
 A matrix $H=(h_{jk})$ is called **Hermitian** or **self-adjoint** if 

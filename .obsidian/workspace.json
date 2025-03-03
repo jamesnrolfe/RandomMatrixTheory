@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/15. Preliminaries for part 2/Spectral statistics for Beta=2 ensembles.md",
-                "mode": "preview",
+                "file": "Notes/Proofs/The Transposing Lemma.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Spectral statistics for Beta=2 ensembles"
+              "title": "The Transposing Lemma"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/15. Preliminaries for part 2/Spectral statistics for Beta=2 ensembles.md",
+                "file": "Notes/Proofs/The Transposing Lemma.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Spectral statistics for Beta=2 ensembles"
+              "title": "Outline of The Transposing Lemma"
             }
           },
           {
@@ -180,43 +180,44 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "26b722c7301a9b2a",
+  "active": "1467babf5b71dfa5",
   "lastOpenFiles": [
-    "Handouts/Linear Algebra.pdf",
-    "2025-03-03.md",
-    "Lecture notes/Part 2.pdf",
-    "Notes/8. Hermitian Matrices/The joint probability density function for the eigenvalues.md",
-    "Notes/8. Hermitian Matrices/The 2 by 2 Gaussian ensemble.md",
-    "Notes/8. Hermitian Matrices/Hermitian Matrices.md",
-    "Notes/8. Hermitian Matrices",
-    "Notes/5. One-Dimensional Probability Distributions/One-dimensional probability distributions.md",
-    "Notes/5. One-Dimensional Probability Distributions",
-    "Notes/15. Preliminaries for part 2/Code/Coded Example 15.2 (b).md",
+    "Notes/Proofs/Gaudin's Lemma.md",
+    "Notes/Proofs/Andreief's Identity.md",
+    "Notes/Extra notes/What actually is the Haar measure?.md",
     "Notes/15. Preliminaries for part 2/Spectral statistics for Beta=2 ensembles.md",
     "Notes/15. Preliminaries for part 2/Spectral Statistics.md",
-    "Notes/15. Preliminaries for part 2/Code",
-    "Notes/15. Preliminaries for part 2",
-    "Notes/14. Orthogonal Polynomial Techniques/Correlation functions.md",
+    "Notes/15. Preliminaries for part 2/Code/Coded Example 15.2 (b).md",
     "Notes/14. Orthogonal Polynomial Techniques/The joint probability density function as a determinant.md",
     "Notes/14. Orthogonal Polynomial Techniques/Orthogonal polynomial techniques.md",
     "Notes/14. Orthogonal Polynomial Techniques/Introducing orthogonal polynomials.md",
-    "Notes/14. Orthogonal Polynomial Techniques",
-    "Notes/9. Spacing Distribution of a Poisson Sequence/Spacing distribution of a Poisson sequence.md",
-    "Notes/9. Spacing Distribution of a Poisson Sequence",
-    "Notes/6. Higher Dimensional Random Variables/Higher dimensional random variables.md",
-    "Notes/6. Higher Dimensional Random Variables",
-    "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/n-point correlation function as a determinant.md",
+    "Notes/14. Orthogonal Polynomial Techniques/Correlation functions.md",
+    "Notes/13. Averages over U(N) (CUE)/Example - Average over U(N).md",
+    "Notes/13. Averages over U(N) (CUE)/Averages over U(N) as determinants.md",
     "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Where we are headed.md",
     "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/The joint probability density function of the eigenvalues.md",
+    "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/n-point correlation function as a determinant.md",
     "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Haar measure as a determinant.md",
     "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Correlation functions revisited.md",
     "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Correlation functions in the large N limit.md",
     "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Correlation functions for the CUE ensemble.md",
+    "Notes/10. The Wigner Sumrise/The Wigner sumrise.md",
+    "Notes/9. Spacing Distribution of a Poisson Sequence/Spacing distribution of a Poisson sequence.md",
+    "Notes/8. Hermitian Matrices/The joint probability density function for the eigenvalues.md",
+    "Notes/8. Hermitian Matrices/The 2 by 2 Gaussian ensemble.md",
+    "Notes/8. Hermitian Matrices/Hermitian Matrices.md",
+    "Notes/7. Spectral Correlation Functions/Spectral Correlation Functions.md",
+    "Notes/6. Higher Dimensional Random Variables/Higher dimensional random variables.md",
+    "Handouts/Linear Algebra.pdf",
+    "Lecture notes/Part 2.pdf",
+    "Notes/8. Hermitian Matrices",
+    "Notes/5. One-Dimensional Probability Distributions",
+    "Notes/15. Preliminaries for part 2/Code",
+    "Notes/15. Preliminaries for part 2",
+    "Notes/14. Orthogonal Polynomial Techniques",
+    "Notes/9. Spacing Distribution of a Poisson Sequence",
+    "Notes/6. Higher Dimensional Random Variables",
     "Notes/12. Eigenvalue Statistics for the Unitary Group CUE",
-    "Notes/4. Introduction to Eigenvalue Statistics/Introduction to eigenvalue statistics.md",
-    "Notes/Proofs/The Transposing Lemma.md",
-    "Notes/Proofs/Gaudin's Lemma.md",
-    "Notes/Proofs/Andreief's Identity.md",
     "assets/Pasted image 20250204105934.png",
     "assets/Screenshot 2025-02-04 at 12.20.33.png",
     "assets/Pasted image 20250204110221.png",

@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 #Notes 
 
 Suppose we are investigating some quantity $X$ that takes values in $\mathbb{R}$. This might be, for example, the time spent queueing at a bus stop.

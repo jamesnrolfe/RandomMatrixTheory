@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 #Notes 
 
 In the first part of the course, we saw exact results - i.e. those that are valid for matrices with fixed dimensions. Whilst it would be nice to think about matrices of finite size, in reality, it is often a lot simpler to talk about matrices that are *infinite* in dimension.

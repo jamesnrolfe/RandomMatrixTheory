@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 #Notes 
 Let’s say we are given the p.d.f. 
 

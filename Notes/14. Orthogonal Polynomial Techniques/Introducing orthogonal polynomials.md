@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 #Notes 
 
 We have the following theorem.

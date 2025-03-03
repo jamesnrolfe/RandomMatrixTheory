@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 #Notes 
 
 The starting point to study statistics of eigenvalues of random matrices is the **joint probability distribution function** for the eigenvalues. This is a real positive function 

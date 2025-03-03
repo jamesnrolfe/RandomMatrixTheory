@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 #Notes 
 
 In the cases that we will consider the *j.p.d.f.*, $P_N$ is invariant under the permutations of its arguments i.e.

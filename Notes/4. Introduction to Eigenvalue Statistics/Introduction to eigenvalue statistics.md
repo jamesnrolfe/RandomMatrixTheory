@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 #Notes
 
 A unitary matrix $U$ with dimensions $N\times N$ will have $N$ eigenvalues lying on the **unit circle** in the complex plane. This stems from the fact that unitary matrices describe complex rotations.

@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 #Notes 
 
 We are now going to define correlation functions for unitary matrices. This tells us information about the probability of eigenstates being where they are, relative to other eigenstates. 

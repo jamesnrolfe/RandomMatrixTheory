@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 #Notes 
 
 In this section, we will review and generalise some results from the first part of the course. Then, we apply orthogonal polynomials to understand various spectral statistics (e.g. the expected value of the normalised counting measure, or occupation probabilities) for $\beta=2$ ensembles like the GUE. 

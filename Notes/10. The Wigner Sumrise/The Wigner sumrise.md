@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 #Notes 
 
 In [[Spacing distribution of a Poisson sequence]] we saw that the probability density of the spacings in a *Poisson sequence* is $p(s)=e^{-s}$ (where we normalised the mean spacing to one). 

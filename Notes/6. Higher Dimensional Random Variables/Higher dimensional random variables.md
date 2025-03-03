@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 #Notes 
 
 If $X$ and $Y$ take values in $\mathbb{\mathbb{R}}$ then $\boldsymbol Z=(X,Y)$ takes values in $\mathbb{\mathbb{R}}\times\mathbb{\mathbb{R}}=\mathbb{\mathbb{R}}^2$. The probability that $\boldsymbol Z$ lies within some *area* $A$, with $A\subset \mathbb{\mathbb{R}}^2$, is 

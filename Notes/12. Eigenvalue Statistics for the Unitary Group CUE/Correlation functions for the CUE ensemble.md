@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 #Notes 
 
 From [[Where we are headed]], we gave the equation 

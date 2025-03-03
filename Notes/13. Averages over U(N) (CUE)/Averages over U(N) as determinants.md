@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 #Notes 
 
 We will often encounter integrals of the form 

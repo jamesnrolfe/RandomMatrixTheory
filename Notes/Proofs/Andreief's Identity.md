@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 *For any interval J and integrable functions $\psi_{j}(x)$ and $\phi_{j}(x)$ for $1\leq j \leq n$ we have*
 
 $$

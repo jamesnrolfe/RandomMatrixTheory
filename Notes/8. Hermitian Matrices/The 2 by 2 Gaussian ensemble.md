@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 #Notes 
 
 Now, we will continue from [[Hermitian Matrices]] and look at the $2\times2$ case. This generalizes well into higher dimensions. 

@@ -1,5 +1,6 @@
 ---
 noteID: 7decc63b-3493-40d6-b0b1-2f632d348db4
+dg-publish: true
 ---
 #Notes 
 
