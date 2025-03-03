@@ -186,11 +186,11 @@ We saw before in [[Orthogonal polynomial techniques]] that given some weight fun
 a_{j} & = \int_{\mathbb{R}}xp_{j-1}(x)p_{j}(x)w(x)dx,\quad j\in \mathbb{Z}_{\geq 1}\\
  \\
 b_{j} & = \int_{\mathbb{R}}p_{j}^{2 }(x)w(x)dx,\quad j \in \mathbb{Z}_{\geq 0}\end{align}$$
-The kernel similarly satisfies 
-$$K_{N}(x,y)=a_{N}\sqrt{ w(x)w(y) } \frac{p_{N}(x)p_{N-1}(y)-p_{N-1}(x)p_{N}(y)}{x-y}$$
-This last relation is known as the **Christoffel-Darboux identity**. On the "diagonal", we have 
-$$K_{N}(x,x)=a_{N}\left( \sqrt{ w(x)p_{N}(x) } \frac{d}{dx} (w(x)p_{N-1}(x))-\sqrt{ w(x)p_{N-1}(x) }  \frac{d}{dx}(w(x)p_{N}(x))\right)$$
-which makes sense as it sort of does look like a chain rule.
+>The kernel similarly satisfies 
+>$$K_{N}(x,y)=a_{N}\sqrt{ w(x)w(y) } \frac{p_{N}(x)p_{N-1}(y)-p_{N-1}(x)p_{N}(y)}{x-y}$$
+>This last relation is known as the **Christoffel-Darboux identity**. On the "diagonal", we have 
+>$$K_{N}(x,x)=a_{N}\left( \sqrt{ w(x)p_{N}(x) } \frac{d}{dx} (w(x)p_{N-1}(x))-\sqrt{ w(x)p_{N-1}(x) }  \frac{d}{dx}(w(x)p_{N}(x))\right)$$
+>which makes sense as it sort of does look like a chain rule.
 
 ^23a96c
 
