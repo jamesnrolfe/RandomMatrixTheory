@@ -49,18 +49,18 @@ i.e. the eigenvalues are indexed in increasing order.
 >  $$\begin{pmatrix} B_{1} & B_{2} \\
  B_{2}  & B_{1}
 \end{pmatrix}$$
-where $B_{1}, B_{2}$ are independent standard Bernoulli random variables (taking the values 0 and 1 with probability $\frac{1}{2}$ each).
-We have four possible matrices each occurring with probability $\frac{1}{4}$, $$\begin{align}
+>where $B_{1}, B_{2}$ are independent standard Bernoulli random variables (taking the values 0 and 1 with probability $\frac{1}{2}$ each).
+>We have four possible matrices each occurring with probability $\frac{1}{4}$, $$\begin{align}
 \begin{pmatrix}1 & 0 \\ 0 & 1\end{pmatrix};&\quad \lambda_{1,2}=1\\ \\
 \begin{pmatrix}0 & 1 \\ 1 & 0\end{pmatrix};&\quad\lambda_{1,2}=1,-1\\  \\
 \begin{pmatrix}1 & 1 \\ 1 & 1\end{pmatrix}; & \quad \lambda_{1,2}= 0,2\\ \\
 \begin{pmatrix}0 & 0  \\ 0 & 0\end{pmatrix}; &\quad \lambda_{1,2}=0 \\
 \end{align}$$
-Hence our possible spectra are $\{ 0 \}$, $\{ 1 \}$, $\{ 1,-1 \}$ or $\{ 0,2 \}$. 
-Since this matrix is random, *the associated counting measure is also random.* Indeed, by considering cases we have that if $\Delta_{1},\Delta_{-1} \subset \mathbb{R}$ such that $1\not\in \Delta_{1}$ and $-1 \not\in \Delta_{-1}$ (i.e. $\Delta_{1}$ is defined such that it contains all values *except* 1), then 
-$$P(\mathcal{N}_{2}(\Delta_{1})=1)=\frac{1}{2};\quad P(\mathcal{N}_{2}(\Delta_{-1})=1)=\frac{3}{4}$$
-i.e. there is a 50% chance that there is 1 eigenvalue in $\Delta_{1}$, coming from $\{ 0 \}$ and $\{ 1,-1 \}$ - i.e. the two spectra of the four that contain exactly 1 eigenvalue that is not equal to 1. 
-See [[Coded Example 15.2 (b)]].
+>Hence our possible spectra are $\{ 0 \}$, $\{ 1 \}$, $\{ 1,-1 \}$ or $\{ 0,2 \}$. 
+>Since this matrix is random, *the associated counting measure is also random.* Indeed, by considering cases we have that if $\Delta_{1},\Delta_{-1} \subset \mathbb{R}$ such that $1\not\in \Delta_{1}$ and $-1 \not\in \Delta_{-1}$ (i.e. $\Delta_{1}$ is defined such that it contains all values *except* 1), then 
+>$$P(\mathcal{N}_{2}(\Delta_{1})=1)=\frac{1}{2};\quad P(\mathcal{N}_{2}(\Delta_{-1})=1)=\frac{3}{4}$$
+>i.e. there is a 50% chance that there is 1 eigenvalue in $\Delta_{1}$, coming from $\{ 0 \}$ and $\{ 1,-1 \}$ - i.e. the two spectra of the four that contain exactly 1 eigenvalue that is not equal to 1. 
+>See [[Coded Example 15.2 (b)]].
 
 
 ^E15-2b

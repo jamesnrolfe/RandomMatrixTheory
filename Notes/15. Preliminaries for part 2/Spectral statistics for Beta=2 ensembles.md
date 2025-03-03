@@ -75,7 +75,9 @@ A word of caution - invariant ensembles to not *in general* arise from construct
 
 
 > [!info] Proposition 15.8
-> Consider the invariant ensembles i.e. $N\times N$ random matrices whose joint density is given by $$P^{(\beta)} _{N} (M_{N}) = C^{(\beta)}_{N} \exp \left( - \frac{\beta}{2} \mathrm{Tr} (V(M_{N})) \right)$$ with $\beta=1$ on $S_{N}$ and with $\beta=2$ on $H_{N}$. Then, the joint density for the eigenvalues can be written as
+> Consider the invariant ensembles i.e. $N\times N$ random matrices whose joint density is given by 
+> $$P^{(\beta)} _{N} (M_{N}) = C^{(\beta)}_{N} \exp \left( - \frac{\beta}{2} \mathrm{Tr} (V(M_{N})) \right)$$
+>  with $\beta=1$ on $S_{N}$ and with $\beta=2$ on $H_{N}$. Then, the joint density for the eigenvalues can be written as
 > $$P_{N} ^{(\beta)}(\lambda_{1},\dots,\lambda_{N})=Z_{N}^{(\beta)} \exp \left( -\frac{\beta}{2} \sum_{j=1}^{N} V(\lambda_{j}) \right)|\Delta (\lambda_{1},\dots,\lambda_{N})|^{\beta},\quad\beta=1,2$$
 >
 
@@ -104,7 +106,8 @@ to the whole of $\mathbb{R}^N$ as symmetric functions.
  0 & \lambda_{1},\lambda_{2} \not\in [a,b]  \\
 1 & \text{either one of } \lambda_{1} \text{ or } \lambda_{2} \text{ is in }[a,b] \text{ but not both} \\
 2  & \lambda_{1},\lambda_{2} \in [a,b]\end{cases}$$
-Therefore, we could define some function $f:\mathbb{R}^2\to \mathbb{C}$ such that$$f(x,y)=\begin{cases} 
+>Therefore, we could define some function $f:\mathbb{R}^2\to \mathbb{C}$ such that
+>$$f(x,y)=\begin{cases} 
  0 & x,y \not\in [a,b]  \\
 1 & \text{either one of } x \text{ or } y \text{ is in }[a,b] \text{ but not both} \\ 
 2  & x,y \in [a,b]\end{cases}$$
@@ -113,14 +116,16 @@ This allows us to state the following version of [[Spectral statistics for Beta=
 
 
 > [!info] Corollary 15.10
-> Let $\Phi:S_{N}\to \mathbb{C}$ be an orthogonal invariant function *or* let $\Phi:H_{N}\to \mathbb{C}$ be a unitary invariant function, integratabtle with respect to $$P^{(\beta)} _{N} (M_{N}) = C^{(\beta)}_{N} \exp \left( - \frac{\beta}{2} \mathrm{Tr} (V(M_{N})) \right)$$
+> Let $\Phi:S_{N}\to \mathbb{C}$ be an orthogonal invariant function *or* let $\Phi:H_{N}\to \mathbb{C}$ be a unitary invariant function, integratabtle with respect to 
+> $$P^{(\beta)} _{N} (M_{N}) = C^{(\beta)}_{N} \exp \left( - \frac{\beta}{2} \mathrm{Tr} (V(M_{N})) \right)$$
 > Denote by $f:\mathbb{R}^N\to \mathbb{C}$ the symmetric function whose restriction by $-\infty<\lambda_{1}(M_{N})\leq \dots \leq \lambda_{N}(M_{N})<\infty$ is $\Phi$. Also denote by $\mathbb{E}_{\beta,N}[\Phi]$ the expectation with respect to $P^{(\beta)} _{N} (M_{N})$. 
 > >[!help] Note
 > > Basically, what we are saying here is that since $\Phi$ is a function on the eigenvalues, and since it doesn't change under orthogonal/unitary transformations, knowing $\Phi$ for the diagonal matrix (which we denote $f$) is enough to know $\Phi$ *everywhere*. "The restriction of $\Phi$ is $f$" essentially just means that when we look at $\Phi$ on diagonal matrices, it becomes $f(\lambda_{1},\dots,\lambda_{N})$.
 > 
 > Then
 > $$\mathbb{E}_{\beta,N}[\Phi]=\int_{R^{N}} f(x_{1},\dots,x_{N})P^{(\beta)}_{N}(x_{1},\dots,x_{N})dx_{1}\dots dx_{N}$$
-> where we said that $$P_{N} ^{(\beta)}(\lambda_{1},\dots,\lambda_{N})=Z_{N}^{(\beta)} \exp \left( -\frac{\beta}{2} \sum_{j=1}^{N} V(\lambda_{j}) \right)|\Delta (\lambda_{1},\dots,\lambda_{N})|^{\beta},\quad\beta=1,2$$
+> where we said that 
+> $$P_{N} ^{(\beta)}(\lambda_{1},\dots,\lambda_{N})=Z_{N}^{(\beta)} \exp \left( -\frac{\beta}{2} \sum_{j=1}^{N} V(\lambda_{j}) \right)|\Delta (\lambda_{1},\dots,\lambda_{N})|^{\beta},\quad\beta=1,2$$
 > 
 
 We re-emphasise that the choice of quadratic $V(x)=x^2$ corresponds to the Gaussian invariant ensembles. In these cases, the normalisation constant is known explicitly as
@@ -194,7 +199,8 @@ which makes sense as it sort of does look like a chain rule.
 > In this example, we will see that we can use orthogonal polynomials to show that
 > $$P_{N}(x_{1},\dots,x_{N})=\frac{1}{N!} \det_{N\times N}(K_{N}(x_{j},x_{k}))$$
 > for the jpdf $P(\boldsymbol{x})$. Previously in the first part of the course, we proved this using [[The Transposing Lemma]]. Now, we will do it using orthogonality.
-> Let $w:\mathbb{R}\to \mathbb{R}$ be a weight function and $(p_{j})^{\infty}_{j=0}$ be a corresponding family of orthonormal polynomials, so $p_j(x)=\gamma_{j}x^{j}+\dots+\gamma_{0}$. Then, we can recall from [[Spectral statistics for Beta=2 ensembles#^5023fb|Property 3]] that $$P_{N}(x_{1},\dots,x_{N})=\frac{1}{N!}\prod_{j=1}^{N} w(x_{j})|\Delta(x_{1},\dots,x_{N})|^2$$
+> Let $w:\mathbb{R}\to \mathbb{R}$ be a weight function and $(p_{j})^{\infty}_{j=0}$ be a corresponding family of orthonormal polynomials, so $p_j(x)=\gamma_{j}x^{j}+\dots+\gamma_{0}$. Then, we can recall from [[Spectral statistics for Beta=2 ensembles#^5023fb|Property 3]] that 
+> $$P_{N}(x_{1},\dots,x_{N})=\frac{1}{N!}\prod_{j=1}^{N} w(x_{j})|\Delta(x_{1},\dots,x_{N})|^2$$
 > The Vandermonde determinant here can be manipulated as follows:
 > $$\begin{align} \Delta(x_{1},\dots,x_{N})  & = \det \begin{pmatrix} 1 & 1 & \dots & 1 \\ x_{1} & x_{2} & \dots & x_{N} \\ \vdots & \vdots & \ddots & \vdots \\ x_{1}^{N-1} & x_{2}^{N-1} & \dots & x_{N}^{N-1}
 \end{pmatrix} \\  & = \frac{1}{\prod_{j=0}^{N-1} \gamma_{j}}\begin{pmatrix} p_{0}(x_{1}) & p_{0}(x_{2}) & \dots & p_{0}(x_{N}) \\ p_{1}(x_{1}) & p_{1}(x_{2}) & \dots & p_{1}(x_{N}) \\ \vdots & \vdots & \ddots & \vdots \\ p_{N-1}(x_{1}) & p_{N-1}(x_{2}) & \dots & p_{N-1}(x_{N})
