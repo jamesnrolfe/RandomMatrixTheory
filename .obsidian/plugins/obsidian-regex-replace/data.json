@@ -1,6 +1,6 @@
 {
-  "findText": "\\infin",
-  "replaceText": "\\infty",
+  "findText": "check",
+  "replaceText": "tldr",
   "useRegEx": false,
   "selOnly": false,
   "caseInsensitive": false,

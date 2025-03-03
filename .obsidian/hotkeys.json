@@ -14,5 +14,13 @@
       ],
       "key": "PageDown"
     }
+  ],
+  "obsidian-regex-replace:obsidian-regex-replace": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "F"
+    }
   ]
 }
