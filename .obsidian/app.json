@@ -3,7 +3,7 @@
   "defaultViewMode": "preview",
   "alwaysUpdateLinks": true,
   "readableLineLength": true,
-  "propertiesInDocument": "visible",
+  "propertiesInDocument": "hidden",
   "showLineNumber": false,
   "smartIndentList": true,
   "strictLineBreaks": false
