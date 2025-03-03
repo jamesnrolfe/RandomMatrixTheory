@@ -18,7 +18,7 @@ Given a matrix (random or deterministic) of dimension $N$, say $M_{N}$, we write
 $$\mathcal{N}_{N}(\Delta) := \Big|  \big (\ell \in \{1,\dots,N\}:\lambda_{\ell}\in \Delta \big) \Big|$$
 where $\Delta$ is an interval of $\mathbb{R}$ and the **normalised counting measure** $\bar{\mathcal{N}}_{N}$ of its eigenvalues is
 $$\bar{\mathcal{N}}_{N}(\Delta):= \frac{1}{N} \mathcal{N}_{N}(\Delta)$$
-Simply put, the counting measure tells us how many eigenvalues lie in the region $\Delta$, and the normalised counting measure tells us the *fraction* of the eigenvalues that lie in that region (see [[Spectral Statistics#^E15-2a| Example 15.2 (a)]]).
+Simply put, the counting measure tells us how many eigenvalues lie in the region $\Delta$, and the normalised counting measure tells us the *fraction* of the eigenvalues that lie in that region (see [[Spectral statistics#^E15-2a| Example 15.2 (a)]]).
 
 If $M_{N}$ is a random matrix, then the counting measure then the counting measure $\mathcal{N}_{N}(\Delta)$ of its eigenvalues is a random variable (a measurable function) for a given interval $\Delta$ and we shall index our eigenvalues in a nondecreasing order
 
@@ -244,7 +244,7 @@ $$
 \mathcal{P}_{N}(\mathcal{N}_{N}(\Delta)=\ell)=\binom{N}{\ell}(F_{N}(\Delta))^{\ell}(1-F_{N}(\Delta))^{N-\ell}
 $$
 
-arising from [[Spectral Statistics#^28d6f4|Lemma 15.5]]. 
+arising from [[Spectral statistics#^28d6f4|Lemma 15.5]]. 
 
 Let's further assume that $F_{N}$ has a probability density $\rho_{N}$ i.e. $F_{N}(\Delta)=\int_{\Delta} \rho_{N}(x)dx$, then also 
 

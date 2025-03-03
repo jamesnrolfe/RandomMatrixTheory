@@ -260,7 +260,7 @@ in [[Spectral statistics for Beta=2 ensembles#^5023fb|property 3]].
 >  $$P_{N,\ell}(x_{1},\dots,x_{\ell})=\frac{(N-\ell)!}{N!}\det(K_{N}(x_{j},x_{k}))^{\ell}_{j,k=1}$$
 >  $$R_{\ell}(x_{1},\dots,x_{\ell})=\det(K_{N}(x_{j},x_{k}))^{\ell}_{j,k=1}$$
 >  for $\ell=1,\dots,N$. 
->  However, from [[Spectral Statistics#^d91146|Spectral Stastics]] we have 
+>  However, from [[Spectral statistics#^d91146|Spectral Stastics]] we have 
 >  $$\mathbb{E}_{N}\left[ \prod_{j=1}^{N} (1-\varphi(x_{j})) \right]=1+\sum^{N}_{\ell=1} \frac{(-1)^{\ell}}{\ell!}\int_{\mathbb{R}^{\ell}} R_{\ell} (x_{1,\dots,x_{\ell}})\prod_{j=1}^{\ell} \varphi(x_{j})dx_{j} $$
 > Therefore the determinantal formula for $R_{\ell}(x_{1},\dots,x_{\ell})$ and hence $P_{N,\ell}$ also follows immediately upon comparison with 
 >  $$\mathbb{E}_{N}\left[ \prod^{N}_{j=1} (1-\varphi(\lambda_{j})) \right] = \det(I-K_{N,J}M_{\varphi})$$
@@ -274,7 +274,7 @@ in [[Spectral statistics for Beta=2 ensembles#^5023fb|property 3]].
 - the occupation probabilities $\mathcal{P}_{N}(\mathcal{N}_{N}(\Delta)=\ell)$
 - the gap probability $\mathcal{P}_{N}(\mathcal{N}_{N}(\Delta)=0)$
 - the variance of the linear statistic $\text{Var}_{N}(\mathcal{N}_{N}(\phi))$
-via the reproducing kernel. This is because, as we saw in [[Spectral Statistics]] all these quantities are connected via the generating function $\mathbb{E}_{N}\left[ \prod(1-\varphi(x_{j})) \right]$.
+via the reproducing kernel. This is because, as we saw in [[Spectral statistics]] all these quantities are connected via the generating function $\mathbb{E}_{N}\left[ \prod(1-\varphi(x_{j})) \right]$.
 
 
 > [!tip] Notation
@@ -294,7 +294,7 @@ There are three things to prove here, so we separate them out. For all of them, 
  $$ \mathbb{E}_{N}[\bar{\mathcal{N}}_{N}(\Delta)]=\int_{\Delta}\rho_{N}(x)dx$$
  Further, we have the inequality $|K_{N}(x,y)|^{2}\leq K_{N}(x,x)K_{N}(y,y)=N^{2}\rho_{N}(x)\rho_{N}(y)$.
  >> [!tldr] Proof of $\mathbb{E}_{N}[\mathcal{N}_{N}(\Delta)]=N \int_{\mathbb{R}} \varphi(x) \rho_{N}(x)dx$
- >> We can firstly note that $\mathcal{N}_{N}(\Delta)=\sum_{j=1}^{N}\varphi(\lambda_{j})$ from [[Spectral Statistics#^9cac02|definition 15.3]]. It follows, using linearity of the expectation value that 
+ >> We can firstly note that $\mathcal{N}_{N}(\Delta)=\sum_{j=1}^{N}\varphi(\lambda_{j})$ from [[Spectral statistics#^9cac02|definition 15.3]]. It follows, using linearity of the expectation value that 
  >> $$\mathbb{E}_{N}[\mathcal{N}_{N}(\Delta)] = \sum^{N}_{j=1} \mathbb{E}_{N}[\varphi(\lambda_{j})]$$
  >> All the eigenvalues here are *identically distributed* (although not independently for $\beta=2$ ensembles). The expectation value inside the sum can be written as 
  >> $$\mathbb{E}_{N}[\varphi(\lambda_{j})]=\int_{R^{N}} \varphi(x_{1})P_{N}(x_{1},\dots x_{N}) \prod_{j=1}^{N} dx_{j}$$

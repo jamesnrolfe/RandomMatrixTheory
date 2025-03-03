@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Proofs/The Transposing Lemma.md",
+                "file": "Homepage.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Transposing Lemma"
+              "title": "Homepage"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 413.5
   },
   "right": {
     "id": "54c70ae345012319",
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Proofs/The Transposing Lemma.md",
+                "file": "Homepage.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of The Transposing Lemma"
+              "title": "Outline of Homepage"
             }
           },
           {
@@ -180,18 +180,21 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "1467babf5b71dfa5",
+  "active": "e1680bbce664b80f",
   "lastOpenFiles": [
+    "Notes/14. Orthogonal Polynomial Techniques/Correlation functions.md",
+    "Homepage.md",
+    "Notes/7. Spectral Correlation Functions/Spectral Correlation Functions.md",
+    "Notes/Proofs/The Transposing Lemma.md",
     "Notes/Proofs/Gaudin's Lemma.md",
     "Notes/Proofs/Andreief's Identity.md",
     "Notes/Extra notes/What actually is the Haar measure?.md",
     "Notes/15. Preliminaries for part 2/Spectral statistics for Beta=2 ensembles.md",
-    "Notes/15. Preliminaries for part 2/Spectral Statistics.md",
+    "Notes/15. Preliminaries for part 2/Spectral statistics.md",
     "Notes/15. Preliminaries for part 2/Code/Coded Example 15.2 (b).md",
     "Notes/14. Orthogonal Polynomial Techniques/The joint probability density function as a determinant.md",
     "Notes/14. Orthogonal Polynomial Techniques/Orthogonal polynomial techniques.md",
     "Notes/14. Orthogonal Polynomial Techniques/Introducing orthogonal polynomials.md",
-    "Notes/14. Orthogonal Polynomial Techniques/Correlation functions.md",
     "Notes/13. Averages over U(N) (CUE)/Example - Average over U(N).md",
     "Notes/13. Averages over U(N) (CUE)/Averages over U(N) as determinants.md",
     "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Where we are headed.md",
@@ -205,9 +208,6 @@
     "Notes/9. Spacing Distribution of a Poisson Sequence/Spacing distribution of a Poisson sequence.md",
     "Notes/8. Hermitian Matrices/The joint probability density function for the eigenvalues.md",
     "Notes/8. Hermitian Matrices/The 2 by 2 Gaussian ensemble.md",
-    "Notes/8. Hermitian Matrices/Hermitian Matrices.md",
-    "Notes/7. Spectral Correlation Functions/Spectral Correlation Functions.md",
-    "Notes/6. Higher Dimensional Random Variables/Higher dimensional random variables.md",
     "Handouts/Linear Algebra.pdf",
     "Lecture notes/Part 2.pdf",
     "Notes/8. Hermitian Matrices",
