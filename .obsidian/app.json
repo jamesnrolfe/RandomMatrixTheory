@@ -1,0 +1,10 @@
+{
+  "promptDelete": false,
+  "defaultViewMode": "preview",
+  "alwaysUpdateLinks": true,
+  "readableLineLength": true,
+  "propertiesInDocument": "hidden",
+  "showLineNumber": false,
+  "smartIndentList": true,
+  "strictLineBreaks": false
+}

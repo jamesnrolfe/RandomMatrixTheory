@@ -1,0 +1,172 @@
+{
+  "main": {
+    "id": "a577d83ed553f3de",
+    "type": "split",
+    "children": [
+      {
+        "id": "83a29f7321842c12",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b85451a3a266294",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Random Matrix Theory Notes/15. Preliminaries for part 2/Spectral Statistics.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Spectral Statistics"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "784a0f08d923ff9a",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "7704db8e01b8c7ee",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "byCreatedTimeReverse",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "99def9378433ce1e",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "d46acdf95e78660f",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "56712ee6df6e6cd1",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "7e11c0e793653e4c",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "a3989b4aa4924469",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Random Matrix Theory Notes/15. Preliminaries for part 2/Spectral Statistics.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "4e7070ccb8078949",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Random Matrix Theory Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Haar measure as a determinant.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "b81c2feb6d2c582b",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Random Matrix Theory Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Haar measure as a determinant.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "8b85451a3a266294",
+  "lastOpenFiles": [
+    "Problems/Homework/Week 6/Week_6_qp.pdf",
+    "Problems/Homework/Week 6",
+    "Problems/Homework",
+    "Random Matrix Theory Notes/15. Preliminaries for part 2/Spectral statistics for Beta=2 ensembles.md",
+    "Random Matrix Theory Notes/15. Preliminaries for part 2/Code/Coded Example 15.2 (b).md",
+    "Random Matrix Theory Notes/15. Preliminaries for part 2/Spectral Statstics.md",
+    "Random Matrix Theory Notes/15. Preliminaries for part 2/Spectral Statistics.md",
+    "Random Matrix Theory Notes/15. Preliminaries for part 2/Code",
+    "Lecture notes/Part 2.pdf",
+    "Random Matrix Theory Notes/12. Eigenvalue Statistics for the Unitary Group CUE/n-point correlation function as a determinant.md",
+    "Random Matrix Theory Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Haar measure as a determinant.md"
+  ]
+}

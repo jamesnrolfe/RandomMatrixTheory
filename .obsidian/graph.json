@@ -1,0 +1,107 @@
+{
+  "collapse-filter": true,
+  "search": "path:\"Random Matrix Theory Notes\"  ",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"Random Matrix Theory Notes/Proofs\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 13750737
+      }
+    },
+    {
+      "query": "path:\"Random Matrix Theory Notes/Extra notes\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14935011
+      }
+    },
+    {
+      "query": "path:\"Random Matrix Theory Notes/10. The Wigner Sumrise\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11392604
+      }
+    },
+    {
+      "query": "path:\"Random Matrix Theory Notes/4. Introduction to Eigenvalue Statistics\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 6084269
+      }
+    },
+    {
+      "query": "path:\"Random Matrix Theory Notes/5. One-Dimensional Probability Distributions\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 6073814
+      }
+    },
+    {
+      "query": "path:\"Random Matrix Theory Notes/6. Higher Dimensional Random Variables\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 6053078
+      }
+    },
+    {
+      "query": "path:\"Random Matrix Theory Notes/7. Spectral Correlation Functions\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14048429
+      }
+    },
+    {
+      "query": "path:\"Random Matrix Theory Notes/8. Hermitian Matrices\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
+    },
+    {
+      "query": "path:\"Random Matrix Theory Notes/9. Spacing Distribution of a Poisson Sequence\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14455812
+      }
+    },
+    {
+      "query": "path:\"Random Matrix Theory Notes/12. Eigenvalue Statistics for the Unitary Group CUE\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 1945409
+      }
+    },
+    {
+      "query": "path:\"Random Matrix Theory Notes/14. Orthogonal Polynomial Techniques\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 15940059
+      }
+    },
+    {
+      "query": "path:\"Random Matrix Theory Notes/13. Averages over U(N) (CUE)\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 8064942
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -2.4,
+  "nodeSizeMultiplier": 1.70123291015625,
+  "lineSizeMultiplier": 2.56156412760417,
+  "collapse-forces": false,
+  "centerStrength": 0.3399658203125,
+  "repelStrength": 11.5413411458333,
+  "linkStrength": 0.2918701171875,
+  "linkDistance": 106,
+  "scale": 0.6140326055494592,
+  "close": true
+}
