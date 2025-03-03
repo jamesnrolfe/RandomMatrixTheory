@@ -284,7 +284,9 @@ via the reproducing kernel. This is because, as we saw in [[Spectral statistics]
 
 
 > [!tip] Notation
-> Before we state the relationships properly, we record the following rescaling of the polynomials $$\psi_{j}(x) := \sqrt{ w(x) } p_{j}(x)$$ where $(p_{j})_{j \geq 0}$ are orthonormal with respect to the weight $w$. This rewriting is simply for convenience. 
+> Before we state the relationships properly, we record the following rescaling of the polynomials 
+> $$\psi_{j}(x) := \sqrt{ w(x) } p_{j}(x)$$ 
+> where $(p_{j})_{j \geq 0}$ are orthonormal with respect to the weight $w$. This rewriting is simply for convenience. 
 
 There are three things to prove here, so we separate them out. For all of them, consider an invariant ensemble with $\beta=2$.
 
@@ -295,11 +297,11 @@ There are three things to prove here, so we separate them out. For all of them, 
 > $$ \begin{align} \rho_{N}(x) := \frac{1}{N}K_{N}(x,x)  & = \frac{1}{N} \sum_{j=0}^{N-1} (\psi_{j}(x))^{2} \\
  \\
  & = \frac{a_{N}}{N}\left( \psi_{N-1}(x) \frac{d}{dx}\psi_{N}(x)-\psi_{N}(x) \frac{d}{dx}\psi_{N-1}(x) \right)\end{align}$$
- which comes from the [[Spectral statistics for Beta=2 ensembles#^23a96c|Christoffel-Darboux identity]] above. 
- In particular, the expectation of the normalised counting measure can be written as 
- $$ \mathbb{E}_{N}[\bar{\mathcal{N}}_{N}(\Delta)]=\int_{\Delta}\rho_{N}(x)dx$$
- Further, we have the inequality $|K_{N}(x,y)|^{2}\leq K_{N}(x,x)K_{N}(y,y)=N^{2}\rho_{N}(x)\rho_{N}(y)$.
- >> [!tldr] Proof of $\mathbb{E}_{N}[\mathcal{N}_{N}(\Delta)]=N \int_{\mathbb{R}} \varphi(x) \rho_{N}(x)dx$
+ >which comes from the [[Spectral statistics for Beta=2 ensembles#^23a96c|Christoffel-Darboux identity]] above. 
+ >In particular, the expectation of the normalised counting measure can be written as 
+ >$$ \mathbb{E}_{N}[\bar{\mathcal{N}}_{N}(\Delta)]=\int_{\Delta}\rho_{N}(x)dx$$
+ >Further, we have the inequality $|K_{N}(x,y)|^{2}\leq K_{N}(x,x)K_{N}(y,y)=N^{2}\rho_{N}(x)\rho_{N}(y)$.
+ >> [!tldr] Proof of the first statement
  >> We can firstly note that $\mathcal{N}_{N}(\Delta)=\sum_{j=1}^{N}\varphi(\lambda_{j})$ from [[Spectral statistics#^9cac02|definition 15.3]]. It follows, using linearity of the expectation value that 
  >> $$\mathbb{E}_{N}[\mathcal{N}_{N}(\Delta)] = \sum^{N}_{j=1} \mathbb{E}_{N}[\varphi(\lambda_{j})]$$
  >> All the eigenvalues here are *identically distributed* (although not independently for $\beta=2$ ensembles). The expectation value inside the sum can be written as 
@@ -308,8 +310,7 @@ There are three things to prove here, so we separate them out. For all of them, 
  >> >This is just a usual way to find an expectation value - the integral over the function with respect to the distribution (for all variables here since it is a jpdf). We only use $x_{1}$ since all the $\varphi(\lambda_{j})$s should be distributed in the same way (identically distributed).
  >> 
  >> Notice how there is no $j$ dependence in this integral! So, it can be taken outside the sum above!
->> $$\begin{align}\mathbb{E}_{N}[\mathcal{N}_{N}(\Delta)] & =\int_{R^{N}} \varphi(x_{1})P_{N}(x_{1},\dots x_{N}) \prod_{j=1}^{N} dx_{j} \sum_{j=1}^{N} 1 \\
- & = N\int_{R^{N}} \varphi(x_{1})P_{N}(x_{1},\dots x_{N}) \prod_{j=1}^{N} dx_{j}\end{align}$$
+>>  $$\begin{align}\mathbb{E}_{N}[\mathcal{N}_{N}(\Delta)] & =\int_{R^{N}} \varphi(x_{1})P_{N}(x_{1},\dots x_{N}) \prod_{j=1}^{N} dx_{j} \sum_{j=1}^{N} 1 \\ & = N\int_{R^{N}} \varphi(x_{1})P_{N}(x_{1},\dots x_{N}) \prod_{j=1}^{N} dx_{j}\end{align}$$
  >We recall that $P_{N,1}$ is the 1-point marginal probability density 
  >$$P_{N,1}= \int_{\mathbb{R}^{N-1}}P_{N}(x,x_{2},\dots,x_{N})dx_{2}\dots dx_{N}$$
  >which we can essentially "factor out" of the integral, making it

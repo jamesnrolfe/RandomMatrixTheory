@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/15. Preliminaries for part 2/Spectral statistics.md",
+                "file": "Notes/15. Preliminaries for part 2/Spectral statistics for Beta=2 ensembles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Spectral statistics"
+              "title": "Spectral statistics for Beta=2 ensembles"
             }
           }
         ]
@@ -158,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/15. Preliminaries for part 2/Spectral statistics.md",
+                "file": "Notes/15. Preliminaries for part 2/Spectral statistics for Beta=2 ensembles.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Spectral statistics"
+              "title": "Outline of Spectral statistics for Beta=2 ensembles"
             }
           },
           {
@@ -200,6 +200,7 @@
   },
   "active": "1467babf5b71dfa5",
   "lastOpenFiles": [
+    "Notes/15. Preliminaries for part 2/Spectral statistics.md",
     "Notes/15. Preliminaries for part 2/Spectral statistics for Beta=2 ensembles.md",
     "Lecture notes/Part 2.pdf",
     "Homepage.md",
@@ -209,7 +210,6 @@
     "Notes/Proofs/Gaudin's Lemma.md",
     "Notes/Proofs/Andreief's Identity.md",
     "Notes/Extra notes/What actually is the Haar measure?.md",
-    "Notes/15. Preliminaries for part 2/Spectral statistics.md",
     "Notes/15. Preliminaries for part 2/Code/Coded Example 15.2 (b).md",
     "Notes/14. Orthogonal Polynomial Techniques/The joint probability density function as a determinant.md",
     "Notes/14. Orthogonal Polynomial Techniques/Orthogonal polynomial techniques.md",
