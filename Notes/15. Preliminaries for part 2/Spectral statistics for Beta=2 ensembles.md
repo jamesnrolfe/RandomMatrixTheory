@@ -188,7 +188,8 @@ a_{j} & = \int_{\mathbb{R}}xp_{j-1}(x)p_{j}(x)w(x)dx,\quad j\in \mathbb{Z}_{\geq
 b_{j} & = \int_{\mathbb{R}}p_{j}^{2 }(x)w(x)dx,\quad j \in \mathbb{Z}_{\geq 0}\end{align}$$
 >The kernel similarly satisfies 
 >$$K_{N}(x,y)=a_{N}\sqrt{ w(x)w(y) } \frac{p_{N}(x)p_{N-1}(y)-p_{N-1}(x)p_{N}(y)}{x-y}$$
->This last relation is known as the **Christoffel-Darboux identity**. On the "diagonal", we have 
+>This last relation is known as the **Christoffel-Darboux identity**. This is useful because it means that we kind find the kernel from *only* the last two polynomials! 
+>On the "diagonal", we have 
 >$$K_{N}(x,x)=a_{N}\left( \sqrt{ w(x)p_{N}(x) } \frac{d}{dx} (w(x)p_{N-1}(x))-\sqrt{ w(x)p_{N-1}(x) }  \frac{d}{dx}(w(x)p_{N}(x))\right)$$
 >which makes sense as it sort of does look like a chain rule.
 
@@ -339,3 +340,121 @@ There are three things to prove here, so we separate them out. For all of them, 
 > In particular, the gap probability of the ensemble is 
 > $$\mathcal{P}_{N}(\mathcal{N}_{N}(\Delta)=0)=\det(I-K_{N,\Delta})=1+\sum_{\ell=1}^{N} \frac{(-1)^{\ell}}{\ell!}\int_{\Delta^{\ell}}\det(K_{N}(x_{j},x_{k}))^{\ell}_{j,k=1} \prod_{m=1}^{\ell} dx_{m} $$
 > 
+
+The determinantal formulae for $R_{n}(x_{1},\dots,x_{N})$ and $P_{N}(x_{1},\dots,x_{N})$ are the key ingredient of the orthogonal polynomial technique. They play a big role in analysing the $\beta=2$ ensembles since they reduce the analysis of the correlation functions of any order $\ell \in \mathbb{Z}_{\geq 1}$ to that of the the kernel $K_{N}$, and then to the polynomials $p_{N}$ and $p_{N-1}$ by the [[Spectral statistics for Beta=2 ensembles#^23a96c|Christoffel-Darboux identity]]. We will use the same formulae in the next chapter.
+
+We will finish this chapter with some useful variance estimates/bounds. For them, we will let $\mathcal{N}_{N}[\varphi]$ be a linear statistic (as we have done before) corresponding to an invariant matrix model with $\beta=2$. We then have the following estimates.
+
+>[!info] Corollary 15.16 (a)
+>For any bounded continuous function $\varphi:\mathbb{R} \to \mathbb{C}$
+>$$\text{Var}_{N}(\mathcal{N}_{N}[\varphi]) \leq 2N \text{sup}_{x \in \mathbb{R} }|\varphi(x)|^{2}$$
+>> [!help] Note
+>> $\text{sup}_{x \in \mathbb{R}}(f)$ denotes the *maximum value that $f$ can reach in the real line*. Since in the above, we denote that $\varphi$ must be bounded, then this value will not be infinite.
+>
+
+>[!info] Corollary 15.16 (b)
+>For any Lipschitz continuous function $\varphi:\mathbb{R}\to \mathbb{C}$ we have
+>$$\text{Var}_{N}(\mathcal{N}_{N}[\varphi]) \leq C_{\alpha,N}N^{1-\alpha}$$
+>with $C_{\alpha, N}=c^{2}2^{\alpha-1}(a_{N})^{2\alpha}$ where $a_{N}$ is defined via the [[Spectral statistics for Beta=2 ensembles#^23a96c|three term recurrence relation]].
+>>[!help] Note
+>>A **Lipschitz** function essentially means that it doesn't grow too fast. It will satisfy the condition
+>>$$|\varphi(x)-\varphi(y)| \leq c|x-y|^{\alpha}$$
+>>for all $x,y \in \mathbb{R}$, with $c\geq 0$ and some $0<\alpha \leq 1$.
+
+>[!info] Corollary 15.16 (c)
+>For any continuous function $\varphi:\mathbb{R} \to \mathbb{C}$ of compact support and any $\epsilon>0$, there exists $\delta>0$ such that
+>$$\text{Var}_{N}(\mathcal{N}_{N}[\varphi]) \leq N \epsilon^{2}+4\left( \frac{a_{N}}{\delta} \right)^{2}\text{sup}_{x \in \mathbb{R}}|\varphi(x)|^{2}$$
+>In particular, if $a_{N}$, again defined via the [[Spectral statistics for Beta=2 ensembles#^23a96c|three term recurrence relation]], is bounded, then 
+>$$\lim_{ N \to \infty } \frac{1}{N} \text{Var}_{N}(\mathcal{N}_{N}[\varphi])=0$$
+
+(*proofs in lecture notes page 24*)
+
+The coefficients of $a_{N}$ are bounded in many interesting cases. From this, in all the cases above, 
+
+$$\lim_{ N \to \infty } \text{Var}_{N}(\bar{\mathcal{N}}_{N}[\varphi])=0$$
+
+for the *normalised* linear statistic. In turn, by Chebyshev's inequality (*see in lecture notes section A.4*)
+
+$$\lim_{ N \to \infty } \mathcal{P}_{N}(|\bar{\mathcal{N}}_{N}(\varphi)-\mathbb{E}_{N}[\bar{\mathcal{N}}_{N}[\varphi]])|>\epsilon) =0$$
+
+for any $\epsilon>0$. This basically says that the probability that the actual value of the normalised counting measure differs from its expected value, in the large $N$ limit, is 0. So, as $N\to \infty$, the normalised counting measure tends to its expected value. We also see above that in this same limit, the variance of the normalised counting measure is zero. So, we might say that in the limit, the normalised counting measure is *definitely* its expected value. 
+
+##### Hermite polynomials
+
+We can define some "classical" weight functions
+
+| $w(x)$           | Name     | Conditions                           |
+| ---------------- | -------- | ------------------------------------ |
+| $e^{-x^2}$       | Hermite  | $\lambda \in \mathbb{R}$             |
+| $x^ae^{-x}$      | Laguerre | $\lambda>0,a\in \mathbb{R}$          |
+| $(1-x)^a(1+x)^b$ | Jacobi   | $\lambda \in (0,1); a,b>-1$          |
+| $(1-x^2)^{-a}$   | Cauchy   | $x \in \mathbb{R},a\geq \frac{1}{2}$ |
+
+which each subsequently generate a family $(p_{j})$ of orthogonal polynomials. We here focus on the **Hermite** case as it relates to the GUE ($\beta=2$ and $V(x)=x^2$). 
+
+To define Hermite polynomials, we use contour integration. 
+
+>[!help] Refresher on relevant complex analysis
+>The upcoming definition of Hermite polynomials involves some complex analysis. Let's do a refresher. 
+>Contour integration is the process of evaluating complex integrals along a closed path in the complex plane. For a *meromorphic* function $f(z)$ (one with isolated poles), the contour integral around a simple pole $z_{0}$ is given by 
+>$$\oint _{\Gamma} = \frac{f(z)}{(z-z_{0})}dz = 2\pi i \text{Res}(f,z_{0})$$
+>The residue is the coefficient $c_{-1}$ in the *Laurent series expansion*
+>$$f(z)=\sum^{\infty}_{-\infty}c_{n}(z-z_{0})^{n}$$
+>So, if our function was $f(z)=\frac{1}{z-z_{0}}$ then $\text{Res}(f,z_{0})=1$, since this is the coefficient $c_{-1}$ ($f(z)$ is already in its Laurent expansion, if you like).
+>If we have a function $g(z)$ which is analytic at a simple pole $z_{0}=0$, then 
+>$$\oint_{\Gamma} \frac{g(z)}{z} dz = 2\pi i g(0)$$
+
+
+
+The $j$th Hermite polynomial from the family $(H_{j})^{\infty}_{j=0}\subset \mathbb{R}[x]$ is thus defined via the contour integral
+
+$$
+H_{j}(x):= \frac{j!}{2\pi i} \oint_{\Gamma} \frac{e^{2xz-z^2}}{z^{j+1}}dz
+$$
+
+where the contour $\Gamma=S_{1}=\{ z \in \mathbb{C}:|z|=1 \}$ i.e. the unit circle in the complex plane, is traversed *once* and *anti-clockwise*. 
+
+
+>[!example] Example 15.17 (a)
+>Let's find the 0th Hermit polynomial.
+>We define $f(z)=e^{2xz-z^{2}} / z^{j+1}$ - this will have a simple pole at $z=0$. We could find the Laurent series expansion for this function, but this is potentially complicated. We can note that since the function $e^{2xz-z^2}$ is well-defined (analytic) at $z=0$, the value of this function in the limit $z\to 0$ is the coefficient $c_{-1}$ i.e. $\text{Res}(f,z_{0})$. Hence, we write 
+>$$\text{Res}(f,z_{0})=\lim_{ z \to z_{0} } e^{2xz-z^2}=e^{2x(0)-0^2}=1$$
+>Then, we can evaluate the contour integral.
+>$$H_{0}(x)=\frac{0!}{2\pi i} \oint_{\Gamma} \frac{e^{2xz-z^2}}{z}=\text{Res}(f,z_{0})=1$$
+>and so the 0th Hermit polynomial is just 1.
+
+>[!Example] Example 15.17 (b)
+>What about the 1st Hermit polynomial? This is slightly more complicated, because we will have a $z^2$ term on the bottom, and so there are now two poles. We now need the coefficient $z_{-2}$ to give us our residue. Luckily, similarly to above, there is a shortcut to find this:
+>$$c_{-2}=\text{Res}(f,z_{0})=\lim_{ z \to z_{0} } \frac{d}{dz}\Big[ z^{2}f(z)\Big]$$
+>and so here 
+>$$\text{Res}(f,0)=\lim_{ z \to 0 } \frac{d}{dz}[e^{2xz-z^2}]=\lim_{ z \to 0 } (2x-2z)e^{2xz-z^2}=2x$$
+>Hence, as before, our 1st Hermit polynomial is just 
+>$$H_{1}(x)=\frac{1!}{2\pi i} \oint_{\Gamma} \frac{e^{2xz-z^2}}{z^{2}}=\text{Res}(f,z_{0})=2x$$
+
+>[!info] Theorem 15.18
+>Consider the GUE with $V(x)=x^2$ and $\beta=2$. Then, the orthonormal polynomials given before as $(p_{j})^{\infty}_{j=0} \subset \mathbb{R}[x]$ with respect to the weight $w(x)=\exp(-V(x))$ are 
+>$$p_{j}(x)=\gamma_{j}H_{j}(x)$$
+>where
+>$$\frac{1}{\gamma_{j}^{2}}:= \sqrt{  \pi} 2^{j}j!$$
+> In particular, the coefficient $a_{j}$ in the [[Spectral statistics for Beta=2 ensembles#^23a96c|three term recurrence relation]] for $(p_{j})_{j=0}^{\infty}$ equals
+> $$a_{j}=\sqrt{ \frac{j}{2} }$$
+> >[!tldr] Proof
+> > We will state without proof that the Hermite polynomials obey 
+> > $$\int_{\mathbb{R}}H_{j}(x)H_{k}(x)e^{-x^{2}}dx=\sqrt{ \pi }2^{j}j! \delta_{j,k}$$
+> > i.e. they are orthogonal to each other! Recall that 
+> > $$\int_{\mathbb{R}}p_{j}(x)p_{k}(x)e^{-x^{2}}dx=\delta_{jk}$$
+> > and hence it clearly follows that in this case ($\beta=2$, $V(x)=x^2$)
+> > $$p_{j}(x)=\gamma_{j}H_{j}(x)$$
+> > We can then use the three term recurrence relation 
+> > $$xH_{j}(x)=\frac{1}{2}H_{j+1}(x)+jH_{j-1}(x)$$
+> > We then multiply both sides by $\gamma_{j}$ i.e. the scaling factor
+> > $$\gamma_{j}xH_{j} = \frac{1}{2}\gamma_{j}H_{j+1}(x)+j\gamma_{j}H_{j-1}(x)$$
+> > Now recall that $p_{j}(x)=\gamma_{j}H_{j}(x)$, and so
+> > $$xp_{j}(x)= \frac{1}{2} \frac{\gamma_{j}}{\gamma_{j+1}}p_{j+1}(x)+j \frac{\gamma_{j}}{\gamma_{j-1}}p_{j-1}(x)$$
+> > Recall that in the three term recurrence relation above, the coefficient of $p_{j-1}(x)$ is $a_{j}$. Hence, it is clear that
+> > $$a_{j}=j \frac{\gamma_{j}}{\gamma_{j-1}}$$
+> > where $\gamma_{j}=\frac{1}{\sqrt{ \sqrt{ \pi } 2^{j}j!}}$, and so
+> > $$a_{j}=j \frac{1 / \sqrt{ \sqrt{ \pi } 2^{j}j!}}{1 / { \sqrt{ \sqrt{ \pi 2^{j-1}(j-1)! } } }}=j\sqrt{ \frac{2^{j-1}(j-1)!}{2^{j}j!} }=\sqrt{ \frac{j}{2} }$$
+> > as required.
+
+

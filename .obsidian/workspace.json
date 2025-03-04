@@ -22,24 +22,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "6fac04f293609f91",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f327e2b74ef950b3",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Lecture notes/Part 2.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Part 2"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 413.5
+    "width": 266.5
   },
   "right": {
     "id": "54c70ae345012319",
