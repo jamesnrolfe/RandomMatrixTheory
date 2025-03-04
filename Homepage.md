@@ -50,3 +50,6 @@ dg-publish: true
 >[[Spectral statistics]]
 >[[Spectral statistics for Beta=2 ensembles]]
 >>[[Coded Example 15.2 (b)]]
+
+>[!tld] Gaussian Unitary Ensemble
+>[[Rescaling the GUE]]

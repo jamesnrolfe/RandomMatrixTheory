@@ -45,6 +45,8 @@ P^{(2)} _{N} (M_{N}) & = \prod_{j=1}^{N} \frac{1}{\sqrt{ \pi }}e^{-m_{jj}^{2}} \
 \end{align}
 $$
 
+^9857c9
+
 Since we are dealing with complex matrix entries, when we integrate the density we have to integrate against
 
 $$
@@ -289,6 +291,8 @@ via the reproducing kernel. This is because, as we saw in [[Spectral statistics]
 > $$\psi_{j}(x) := \sqrt{ w(x) } p_{j}(x)$$ 
 > where $(p_{j})_{j \geq 0}$ are orthonormal with respect to the weight $w$. This rewriting is simply for convenience. 
 
+^bd5d40
+
 There are three things to prove here, so we separate them out. For all of them, consider an invariant ensemble with $\beta=2$.
 
 > [!info] Theorem 15.15 (a)
@@ -381,6 +385,8 @@ for any $\epsilon>0$. This basically says that the probability that the actual v
 
 ##### Hermite polynomials
 
+^c20d5a
+
 We can define some "classical" weight functions
 
 | $w(x)$           | Name     | Conditions                           |
@@ -456,5 +462,7 @@ where the contour $\Gamma=S_{1}=\{ z \in \mathbb{C}:|z|=1 \}$ i.e. the unit circ
 > > where $\gamma_{j}=\frac{1}{\sqrt{ \sqrt{ \pi } 2^{j}j!}}$, and so
 > > $$a_{j}=j \frac{1 / \sqrt{ \sqrt{ \pi } 2^{j}j!}}{1 / { \sqrt{ \sqrt{ \pi 2^{j-1}(j-1)! } } }}=j\sqrt{ \frac{2^{j-1}(j-1)!}{2^{j}j!} }=\sqrt{ \frac{j}{2} }$$
 > > as required.
+
+^5eb37b
 
 
