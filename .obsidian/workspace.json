@@ -34,6 +34,51 @@
               "icon": "lucide-file",
               "title": "Rescaling the GUE"
             }
+          },
+          {
+            "id": "84aa51a7c035837d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/15. Preliminaries for part 2/Spectral statistics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Spectral statistics"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "d7daf87f95e3b50e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b9b2f57c382a9599",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Problems/Homework/Week 6/Week_6_qp.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Week_6_qp"
+            }
+          },
+          {
+            "id": "7ce4bd6d401400d8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Lecture notes/Part 2.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Part 2"
+            }
           }
         ]
       }
@@ -154,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/16. Gaussian Unitary Ensemble/Rescaling the GUE.md",
+                "file": "Problems/Homework/Week 6/Week_6_qp.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Rescaling the GUE"
+              "title": "Outline of Week_6_qp"
             }
           },
           {
@@ -194,14 +239,15 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "1c86004e35d83f7d",
+  "active": "b9b2f57c382a9599",
   "lastOpenFiles": [
-    "Notes/15. Preliminaries for part 2/Spectral statistics for Beta=2 ensembles.md",
-    "Notes/16. Gaussian Unitary Ensemble/Rescaling the GUE.md",
+    "Lecture notes/Part 2.pdf",
+    "Problems/Homework/Week 6/Week_6_qp.pdf",
     "Notes/15. Preliminaries for part 2/Spectral statistics.md",
+    "Notes/16. Gaussian Unitary Ensemble/Rescaling the GUE.md",
+    "Notes/15. Preliminaries for part 2/Spectral statistics for Beta=2 ensembles.md",
     "Homepage.md",
     "Notes/16. Gaussian Unitary Ensemble",
-    "Lecture notes/Part 2.pdf",
     "Notes/7. Spectral Correlation Functions/Spectral Correlation Functions.md",
     "Notes/14. Orthogonal Polynomial Techniques/Correlation functions.md",
     "Notes/Proofs/The Transposing Lemma.md",
@@ -223,7 +269,6 @@
     "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Correlation functions for the CUE ensemble.md",
     "Notes/10. The Wigner Sumrise/The Wigner sumrise.md",
     "Notes/9. Spacing Distribution of a Poisson Sequence/Spacing distribution of a Poisson sequence.md",
-    "Notes/8. Hermitian Matrices/The joint probability density function for the eigenvalues.md",
     "Handouts/Linear Algebra.pdf",
     "Notes/8. Hermitian Matrices",
     "Notes/5. One-Dimensional Probability Distributions",
@@ -231,7 +276,6 @@
     "Notes/15. Preliminaries for part 2",
     "Notes/14. Orthogonal Polynomial Techniques",
     "Notes/9. Spacing Distribution of a Poisson Sequence",
-    "Notes/6. Higher Dimensional Random Variables",
     "assets/Pasted image 20250204105934.png",
     "assets/Screenshot 2025-02-04 at 12.20.33.png",
     "assets/Pasted image 20250204110221.png",

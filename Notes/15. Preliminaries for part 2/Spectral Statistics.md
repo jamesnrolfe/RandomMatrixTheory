@@ -163,7 +163,7 @@ This establishes the claimed connection to the gap probabilities. It is not a fa
 
 > [!info] Lemma 15.5
 > For any $\ell \in \{ 0,1,2,\dots,N \}$ and any interval $\Delta \subset \mathbb{R}$ we have
-> $$\frac{(-1)^{\ell}}{{\ell!}} \frac{d^{\ell}}{{da^{\ell}}} \mathbb{E}_{N} \left[ \prod_{j=1}^{N} (1-a\chi_{\Delta}(\lambda_{j} )) \right]=\mathcal{P}_{N}(\mathcal{N}_{N}(\Delta) = \ell )$$
+> $$\frac{(-1)^{\ell}}{{\ell!}} \frac{d^{\ell}}{{da^{\ell}}} \mathbb{E}_{N} \left[ \prod_{j=1}^{N} (1-a\chi_{\Delta}(\lambda_{j} )) \right]\Bigg|_{a=1}=\mathcal{P}_{N}(\mathcal{N}_{N}(\Delta) = \ell )$$
 > *Proof in lecture notes (page 7)*.
 
 ^28d6f4
@@ -243,8 +243,6 @@ Similarly, the occupation probabilities, including the gap probability are
 $$
 \mathcal{P}_{N}(\mathcal{N}_{N}(\Delta)=\ell)=\binom{N}{\ell}(F_{N}(\Delta))^{\ell}(1-F_{N}(\Delta))^{N-\ell}
 $$
-
-arising from [[Spectral statistics#^28d6f4|Lemma 15.5]]. 
 
 Let's further assume that $F_{N}$ has a probability density $\rho_{N}$ i.e. $F_{N}(\Delta)=\int_{\Delta} \rho_{N}(x)dx$, then also 
 

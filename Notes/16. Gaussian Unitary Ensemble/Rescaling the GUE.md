@@ -105,7 +105,7 @@ This can be seen in the following corollaries. For them, consider $\psi_{N-k}^{(
 
 >[!info] Corollary 16.2 (b)
 >For $|x| > \sqrt{ 2 }$ parametrised as $x=\sqrt{ 2 }\cosh \theta$ with $\theta>0$, we have
->$$\psi_{N-k}^{(N)}(x)=\sqrt{ \frac{1}{2\pi}\sqrt{ x^{2}-2 } } \exp\left( -N\alpha(\theta)-\left[ k-\frac{1}{2} \right]\theta \right)(1+\mathcal{O}(N^{-1}))$$
+>$$\psi_{N-k}^{(N)}(x)=\sqrt{ \frac{1}{2\pi\sqrt{ x^{2}-2 } }} \exp\left( -N\alpha(\theta)-\left[ k-\frac{1}{2} \right]\theta \right)(1+\mathcal{O}(N^{-1}))$$
 >where $\alpha(\theta):=\frac{1}{2}\sinh{2}\theta-\theta$.
 
 >[!info] Corollary 16.2 (c)
