@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/16. Gaussian Unitary Ensemble/Rescaling the GUE.md",
-                "mode": "preview",
+                "file": "Notes/16. Gaussian Unitary Ensemble/Edges of the Spectrum.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rescaling the GUE"
+              "title": "Edges of the Spectrum"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,13 +195,13 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "84aa51a7c035837d",
+  "active": "3b08ae2c43797998",
   "lastOpenFiles": [
+    "Notes/16. Gaussian Unitary Ensemble/Bulk of the spectrum.md",
+    "Notes/16. Gaussian Unitary Ensemble/Rescaling the GUE.md",
+    "Notes/16. Gaussian Unitary Ensemble/Edges of the Spectrum.md",
     "Lecture notes/Part 2.pdf",
     "Problems/Homework/Week 6/Week_6_qp.pdf",
-    "Notes/16. Gaussian Unitary Ensemble/Edges of the Spectrum.md",
-    "Notes/16. Gaussian Unitary Ensemble/Rescaling the GUE.md",
-    "Notes/16. Gaussian Unitary Ensemble/Bulk of the spectrum.md",
     "Notes/15. Preliminaries for part 2/Spectral statistics for Beta=2 ensembles.md",
     "Notes/15. Preliminaries for part 2/Spectral statistics.md",
     "assets/Screenshot 2025-03-07 at 13.16.12.png",

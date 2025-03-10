@@ -84,7 +84,7 @@ In the forthcoming, there are a few mathematical tools we need to solve problems
 
 >[!info] Proposition 16.1 (c)
 >For $x=\sqrt{ 2\ell+1 } -2^{- \frac{1}{2}}3^{- \frac{1}{3}} \ell^{- \frac{1}{6}}t$ with $t \in \mathbb{C}$ bounded we have
->$$e^{- \frac{1}{2}x^{2}}H_{\ell}(x)=\pi^{\frac{1}{4}}2^{\frac{\frac{\ell}{2}+1}{4}}\sqrt{ \ell! }\ell^{- \frac{1}{12}}(A(t)+\mathcal{O}(\ell^{\frac{-7}{3}}))$$
+>$$e^{- \frac{1}{2}x^{2}}H_{\ell}(x)=\pi^{\frac{1}{4}}2^{\frac{\ell}{2}+\frac{1}{4}}\sqrt{ \ell! }\ell^{- \frac{1}{12}}(A(t)+\mathcal{O}(\ell^{\frac{-7}{3}}))$$
 >with $A(t)=\text{Ai}(-3^{- \frac{1}{3}}t)$ in terms of the standard Airy function 
 >$$\text{Ai}(x):= \frac{1}{\pi}\int^{\infty}_{0} \cos\left( \frac{1}{3}t^{3}+xt \right)dt$$
 

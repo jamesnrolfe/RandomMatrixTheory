@@ -82,7 +82,7 @@ This is a global regime concerning the support of the limiting normalised counti
 >$$ \lim_{ N \to \infty }  \frac{1}{\sqrt{ 2 }}N^{\frac{1}{3}}\rho_{N}\left( \sqrt{ 2 }+\frac{s}{\sqrt{ 2 }N^{\frac{2}{3}}} \right)  
  =\int _{s} ^{\infty} \text{Ai}^{2}(y)dy  
  = -s\text{Ai}^{2}(s)+(\text{Ai}'(s))^{2} $$
- where $\text{Ai}(x)$ is the standard *Airy function*
+ where $\text{Ai}(x)$ is the standard **Airy function**
  $$\text{Ai}(x)=\frac{1}{\pi}\int_{0}^{\infty}\cos\left( \frac{1}{3}t^{3}+xt \right)dt$$
 
 >[!info] Theorem 16.8 (b)
