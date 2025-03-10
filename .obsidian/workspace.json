@@ -6,55 +6,70 @@
       {
         "id": "3c1092bb05404bf5",
         "type": "tabs",
+        "dimension": 51.55666251556662,
         "children": [
-          {
-            "id": "1c86004e35d83f7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/16. Gaussian Unitary Ensemble/Rescaling the GUE.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Rescaling the GUE"
-            }
-          },
-          {
-            "id": "1467babf5b71dfa5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/16. Gaussian Unitary Ensemble/Rescaling the GUE.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Rescaling the GUE"
-            }
-          },
           {
             "id": "84aa51a7c035837d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/15. Preliminaries for part 2/Spectral statistics.md",
+                "file": "Notes/16. Gaussian Unitary Ensemble/Edges of the Spectrum.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Spectral statistics"
+              "title": "Edges of the Spectrum"
+            }
+          },
+          {
+            "id": "8195e0b9242a9329",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/16. Gaussian Unitary Ensemble/Bulk of the spectrum.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Bulk of the spectrum"
+            }
+          },
+          {
+            "id": "ee4569446ffe6b8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/15. Preliminaries for part 2/Spectral statistics for Beta=2 ensembles.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Spectral statistics for Beta=2 ensembles"
+            }
+          },
+          {
+            "id": "feccf0f65b07010c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/15. Preliminaries for part 2/Spectral statistics for Beta=2 ensembles.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Spectral statistics for Beta=2 ensembles"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "d7daf87f95e3b50e",
         "type": "tabs",
+        "dimension": 48.44333748443337,
         "children": [
           {
             "id": "b9b2f57c382a9599",
@@ -79,8 +94,21 @@
               "icon": "lucide-file-text",
               "title": "Part 2"
             }
+          },
+          {
+            "id": "19ec13e57ac96e8e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Lecture notes/Part 2.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Part 2"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,7 +140,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "fred",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -199,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Problems/Homework/Week 6/Week_6_qp.pdf",
+                "file": "Notes/16. Gaussian Unitary Ensemble/Edges of the Spectrum.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Week_6_qp"
+              "title": "Outline of Edges of the Spectrum"
             }
           },
           {
@@ -239,13 +267,18 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "b9b2f57c382a9599",
+  "active": "84aa51a7c035837d",
   "lastOpenFiles": [
-    "Lecture notes/Part 2.pdf",
-    "Problems/Homework/Week 6/Week_6_qp.pdf",
-    "Notes/15. Preliminaries for part 2/Spectral statistics.md",
     "Notes/16. Gaussian Unitary Ensemble/Rescaling the GUE.md",
+    "Notes/16. Gaussian Unitary Ensemble/Edges of the Spectrum.md",
+    "Notes/16. Gaussian Unitary Ensemble/Bulk of the spectrum.md",
     "Notes/15. Preliminaries for part 2/Spectral statistics for Beta=2 ensembles.md",
+    "Lecture notes/Part 2.pdf",
+    "Notes/15. Preliminaries for part 2/Spectral statistics.md",
+    "assets/Screenshot 2025-03-07 at 13.16.12.png",
+    "Notes/Extra notes/What actually is the Haar measure?.md",
+    "assets/Screenshot 2025-03-07 at 13.00.35.png",
+    "Problems/Homework/Week 6/Week_6_qp.pdf",
     "Homepage.md",
     "Notes/16. Gaussian Unitary Ensemble",
     "Notes/7. Spectral Correlation Functions/Spectral Correlation Functions.md",
@@ -253,7 +286,6 @@
     "Notes/Proofs/The Transposing Lemma.md",
     "Notes/Proofs/Gaudin's Lemma.md",
     "Notes/Proofs/Andreief's Identity.md",
-    "Notes/Extra notes/What actually is the Haar measure?.md",
     "Notes/15. Preliminaries for part 2/Code/Coded Example 15.2 (b).md",
     "Notes/14. Orthogonal Polynomial Techniques/The joint probability density function as a determinant.md",
     "Notes/14. Orthogonal Polynomial Techniques/Orthogonal polynomial techniques.md",
@@ -268,7 +300,6 @@
     "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Correlation functions in the large N limit.md",
     "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Correlation functions for the CUE ensemble.md",
     "Notes/10. The Wigner Sumrise/The Wigner sumrise.md",
-    "Notes/9. Spacing Distribution of a Poisson Sequence/Spacing distribution of a Poisson sequence.md",
     "Handouts/Linear Algebra.pdf",
     "Notes/8. Hermitian Matrices",
     "Notes/5. One-Dimensional Probability Distributions",

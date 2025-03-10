@@ -72,7 +72,7 @@ $$
 
 Hence, for example, $p_{0}^{(N)}(x)=\left( \frac{N}{\pi} \right)^{\frac{1}{4}}$ (verify remembering that $H_{0}(x)=1$).
 
-In the forthcoming, there are a few mathematical tools we need to solve problems, outlined in the propositions below. For all, we denote by $H_{\ell}(x)$ the classical [[Spectral statistics for Beta=2 ensembles#^c20d5a|Hermite polynomial]] and let $\epsilon$ and $\omega$ be fixed positive numbers. The following holds true for $\ell\to \infty$.
+In the forthcoming, there are a few mathematical tools we need to solve problems, outlined in the propositions below. For all, we denote by $H_{\ell}(x)$ the classical [[Spectral statistics for Beta=2 ensembles#^c20d5a|Hermite polynomial]] and let $\epsilon$ and $\omega$ be fixed positive numbers. The following holds true for $\ell\to \infty$. ^0c5426
 
 >[!info] Proposition 16.1 (a)
 >For $x=\sqrt{ 2\ell+1 }\cos \phi$ with $\epsilon\leq \phi \leq \pi-\epsilon$ we have
@@ -108,11 +108,13 @@ This can be seen in the following corollaries. For them, consider $\psi_{N-k}^{(
 >$$\psi_{N-k}^{(N)}(x)=\sqrt{ \frac{1}{2\pi\sqrt{ x^{2}-2 } }} \exp\left( -N\alpha(\theta)-\left[ k-\frac{1}{2} \right]\theta \right)(1+\mathcal{O}(N^{-1}))$$
 >where $\alpha(\theta):=\frac{1}{2}\sinh{2}\theta-\theta$.
 
+^cb9f94
+
 >[!info] Corollary 16.2 (c)
 >For $t \in \mathbb{C}$ fixed and setting $x=\sqrt{ 2 }+\frac{t}{\sqrt{ 2 }N^{2/3}}$ we have
 >$$\psi_{N-k}^{(N)}(x)=2^{\frac{1}{4}}N^{\frac{1}{6}}(\text{Ai}(t)+\mathcal{O}(N^{\frac{-3}{4}}))$$
 
-We can use (b) to see what happens as $x\to \infty$. Since $\theta=\cosh^{-1}\left( \frac{x}{\sqrt{ 2 }} \right)$ goes to infinity in this limit, we find from (b) that
+We can use (b) to see what happens as $x\to \infty$. Since $\theta=\cosh^{-1}\left( \frac{x}{\sqrt{ 2 }} \right)$ goes to infinity in this limit, we find from (b) that ^ab2ee8
 
 $$
 \lim_{ x \to \infty } \psi_{N-k}^{(N)}(x)=0

@@ -130,6 +130,8 @@ This allows us to state the following version of [[Spectral statistics for Beta=
 > $$P_{N} ^{(\beta)}(\lambda_{1},\dots,\lambda_{N})=Z_{N}^{(\beta)} \exp \left( -\frac{\beta}{2} \sum_{j=1}^{N} V(\lambda_{j}) \right)|\Delta (\lambda_{1},\dots,\lambda_{N})|^{\beta},\quad\beta=1,2$$
 > 
 
+^193f65
+
 We re-emphasise that the choice of quadratic $V(x)=x^2$ corresponds to the Gaussian invariant ensembles. In these cases, the normalisation constant is known explicitly as
 
 $$
@@ -330,6 +332,8 @@ There are three things to prove here, so we separate them out. For all of them, 
  > The other stages of the theorem come directly from this. 
  > 
 
+^4cee7d
+
 
 >[!info] Theorem 15.15 (b)
 >The **variance** of the linear eigenvalue statistic is
@@ -377,7 +381,7 @@ The coefficients of $a_{N}$ are bounded in many interesting cases. From this, in
 
 $$\lim_{ N \to \infty } \text{Var}_{N}(\bar{\mathcal{N}}_{N}[\varphi])=0$$
 
-for the *normalised* linear statistic. In turn, by Chebyshev's inequality (*see in lecture notes section A.4*)
+for the *normalised* linear statistic. In turn, by Chebyshev's inequality (*see in lecture notes section A.4*) ^eb204c
 
 $$\lim_{ N \to \infty } \mathcal{P}_{N}(|\bar{\mathcal{N}}_{N}(\varphi)-\mathbb{E}_{N}[\bar{\mathcal{N}}_{N}[\varphi]])|>\epsilon) =0$$
 

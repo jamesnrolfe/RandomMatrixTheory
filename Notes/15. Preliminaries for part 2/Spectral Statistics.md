@@ -339,6 +339,8 @@ where the diagonal entries $\lambda_{j}$ are distributed Binomially i.e. they ar
 > So, we have created a formula for the expected value, which we can then use to work out other things (remember we called it a "generating function"). For example
 > $$\mathcal{P}_{N}(\mathcal{N}_{N}(\Delta )=0)=(1-\mathbb{E}_{N}[\bar{\mathcal{N}}_{N}(\Delta)])^N$$
 
+^e76b01
+
 
 
 
