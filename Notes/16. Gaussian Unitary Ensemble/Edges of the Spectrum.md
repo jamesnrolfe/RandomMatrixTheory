@@ -71,5 +71,24 @@ $$
 \end{cases}
 $$
 
-This is basically saying that as $N$ grows to infinity, the probability that the biggest eigenvalue is smaller than $\sqrt{ 2 }$ is zero, and the probability that it is smaller than some number that is *bigger than $\sqrt{ 2 }$* is 1. So in the limit, $\lambda_{N}=\sqrt{ 2 }$.
+This is basically saying that as $N$ grows to infinity, the probability that the biggest eigenvalue is smaller than $\sqrt{ 2 }$ is zero, and the probability that it is smaller than some number that is *bigger than $\sqrt{ 2 }$* is 1. So in the limit, $\lambda_{N}=\sqrt{ 2 }$. 
+
+This is a global regime concerning the support of the limiting normalised counting measure of eigenvalues. We now discuss the corresponding *local regime results*, zooming in around the edge. For the next theorem, take $M_{N}$ from the rescaled GUE. The following limits then hold.
+
+>[!info] Theorem 16.8 (a)
+>For the density $\rho_{N}$ of the mean normalised counting measure in [[Spectral statistics for Beta=2 ensembles#^4cee7d|Theorem 15.15 (a)]] i.e. 
+>$$\mathbb{E}_{N}[\bar{\mathcal{N}}_{N}(\Delta)]=\int_{\Delta} \rho_{N}(x)dx=\frac{1}{N}\int_{\Delta}K_{N}(x,x)dx$$
+>we can say 
+>$$ \lim_{ N \to \infty }  \frac{1}{\sqrt{ 2 }}N^{\frac{1}{3}}\rho_{N}\left( \sqrt{ 2 }+\frac{s}{\sqrt{ 2 }N^{\frac{2}{3}}} \right)  
+ =\int _{s} ^{\infty} \text{Ai}^{2}(y)dy  
+ = -s\text{Ai}^{2}(s)+(\text{Ai}'(s))^{2} $$
+ where $\text{Ai}(x)$ is the standard *Airy function*
+ $$\text{Ai}(x)=\frac{1}{\pi}\int_{0}^{\infty}\cos\left( \frac{1}{3}t^{3}+xt \right)dt$$
+
+>[!info] Theorem 16.8 (b)
+>If $P_{N,\ell}=P^{(2)}_{N,\ell}$ is the $\ell$th marginal (see [[Spectral statistics for Beta=2 ensembles#^193f65|Corollary 15.10]]) with $\beta=2$ and $V(x)=x^{2}$, then for any $\ell \in \mathbb{N}$ we have
+>$$\lim_{ N \to \infty } \left( \frac{1}{\sqrt{ 2 }N^{\frac{1}{3}}} \right)^{\ell}P_{N,\ell}\left( \sqrt{ 2 }+\frac{x_{1}}{\sqrt{ 2 }N^{\frac{2}{3}}},\dots,\sqrt{ 2 }+\frac{x_{\ell}}{\sqrt{ 2 }N^{\frac{2}{3}}} \right)=\det(K_{\text{Ai}}(x_{j},x_{k}))^{\ell}_{j,k=1}$$
+>where 
+>$$K_{\text{Ai}}(x,y):= \int_{0}^{\infty}\text{Ai}(x+u)\text{Ai}(u+y)du=\frac{\text{Ai}(x)\text{Ai}'(y)-\text{Ai}(y)\text{Ai}'(x)}{x-y}$$
+>is the **Airy kernel**.
 
