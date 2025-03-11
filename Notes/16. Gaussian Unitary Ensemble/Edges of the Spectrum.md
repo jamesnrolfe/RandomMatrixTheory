@@ -49,9 +49,9 @@ We state initially that as the matrix size grows, since the density of the state
  \\
  & \leq c_{1}\int^{\infty}_{\epsilon N^{\frac{2}{3}}} \frac{1}{s}e^{-c_{2}s^{\frac{3}{2}}}ds \\
  \\
- & = c_{1} \epsilon^{- \frac{3}{2}} \frac{1}{N} e^{-N c_{2} \epsilon^{\frac{3}{2}}}\end{align}$$
+ & = \frac{2}{3} \frac{c_{1}}{c_{2}} \epsilon^{- \frac{3}{2}} \frac{1}{N} e^{-N c_{2} \epsilon^{\frac{3}{2}}}\end{align}$$
  >>> [!help] Note
- >>> In the third line, we used the inequality from above. The integral can be computed via integration by parts.
+ >>> In the third line, we used the inequality from above. The integral can be computed via integration by parts (done [[Edge integral.pdf|here]]).
  >>
  >>The last line guarantees convergence (it is *rapidly summable*) in the sum above (and since our actual thing is less than this, it will also converge). Hence, we have proved that  
  >>$$\mathcal{P}_{N}(\limsup_{ N \to \infty } \lambda_{N} \leq \sqrt{ 2 })=1$$

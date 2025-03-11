@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "Notes/16. Gaussian Unitary Ensemble/Edges of the Spectrum.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -197,9 +197,11 @@
   },
   "active": "3b08ae2c43797998",
   "lastOpenFiles": [
-    "Notes/16. Gaussian Unitary Ensemble/Bulk of the spectrum.md",
     "Notes/16. Gaussian Unitary Ensemble/Rescaling the GUE.md",
     "Notes/16. Gaussian Unitary Ensemble/Edges of the Spectrum.md",
+    "Notes/16. Gaussian Unitary Ensemble/Bulk of the spectrum.md",
+    "Notes/Extra notes/Derivation Assist/Edge integral.pdf",
+    "Notes/Extra notes/Derivation Assist",
     "Lecture notes/Part 2.pdf",
     "Problems/Homework/Week 6/Week_6_qp.pdf",
     "Notes/15. Preliminaries for part 2/Spectral statistics for Beta=2 ensembles.md",
@@ -232,8 +234,6 @@
     "Notes/5. One-Dimensional Probability Distributions",
     "Notes/15. Preliminaries for part 2/Code",
     "Notes/15. Preliminaries for part 2",
-    "Notes/14. Orthogonal Polynomial Techniques",
-    "Notes/9. Spacing Distribution of a Poisson Sequence",
     "assets/Pasted image 20250204105934.png",
     "assets/Screenshot 2025-02-04 at 12.20.33.png",
     "assets/Pasted image 20250204110221.png",
