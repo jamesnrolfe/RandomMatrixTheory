@@ -224,7 +224,7 @@ $$P(x_{1},\dots ,x_{N})=\frac{1}{N!}\det_{N\times N}(K_{N}(x_{j},x_{k}))$$
 
 ^f64df4
 
-Next is the notion of the **Fredholm determinant** of a continuous kernel function.
+Next is the notion of the **Fredholm determinant** of a continuous kernel function. ^58e6db
 
 
 > [!info] Definition 15.12
@@ -234,6 +234,8 @@ Next is the notion of the **Fredholm determinant** of a continuous kernel functi
 > $$\int_{J}|f(x)|^{2}dx < \infty$$
 > Then, the **Fredholm determinant** of the operator $K_{J}$ (or the kernel $K$) is 
 > $$\det(I-K_{J}):= 1 + \sum^{\infty}_{\ell=1} \frac{(-1)^{\ell}}{\ell!}\left[ \int_{J^{\ell}} \det(K(x_{j},x_{k}))^{\ell}_{j,k=1} dx_{1}\dots dx_{\ell} \right]$$
+
+^a85492
 
 In the above, it is not clear that the sum converges (infinite sums are usually a big "no-no"). However, since we are usually using the Fredholm determinant of the reproducing kernel $K_{N}$ which has a sum up to $N$ in it, the infinite sum *truncates* at $\ell=N$ and hence it doesn't matter that this sum is infinite. However, in the general case, convergence must be verified, for instance by **Hadamard's inequality** (*see A.2 in lecture notes*).
 

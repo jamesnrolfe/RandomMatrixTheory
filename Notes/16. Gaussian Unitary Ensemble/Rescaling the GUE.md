@@ -96,7 +96,7 @@ $$
 
 for integer $k \geq 0$.
 
-This can be seen in the following corollaries. For them, consider $\psi_{N-k}^{(N)}$ as in the above, for fixed $k \in \mathbb{Z}_{\geq{0}}$. We then have, as $N \to \infty$, the following.
+This can be seen in the following corollaries. For them, consider $\psi_{N-k}^{(N)}$ as in the above, for fixed $k \in \mathbb{Z}_{\geq{0}}$. We then have, as $N \to \infty$, the following. ^b993f2
 
 >[!info] Corollary 16.2 (a)
 >For any $x \in(-\sqrt{ 2 },\sqrt{ 2 })$, parametrised as $x=\sqrt{ 2 }\cos \theta$ with $\theta \in (0,\pi)$, we have
@@ -113,6 +113,8 @@ This can be seen in the following corollaries. For them, consider $\psi_{N-k}^{(
 >[!info] Corollary 16.2 (c)
 >For $t \in \mathbb{C}$ fixed and setting $x=\sqrt{ 2 }+\frac{t}{\sqrt{ 2 }N^{2/3}}$ we have
 >$$\psi_{N-k}^{(N)}(x)=2^{\frac{1}{4}}N^{\frac{1}{6}}(\text{Ai}(t)+\mathcal{O}(N^{\frac{-3}{4}}))$$
+
+^4722f5
 
 We can use (b) to see what happens as $x\to \infty$. Since $\theta=\cosh^{-1}\left( \frac{x}{\sqrt{ 2 }} \right)$ goes to infinity in this limit, we find from (b) that ^ab2ee8
 

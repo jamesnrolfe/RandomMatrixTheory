@@ -11,14 +11,12 @@
             "id": "8b85451a3a266294",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Notes/16. Gaussian Unitary Ensemble/Edges of the Spectrum.md",
-                "mode": "preview",
-                "source": false
+                "file": "Lecture notes/Part 2.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Edges of the Spectrum"
+              "icon": "lucide-file-text",
+              "title": "Part 2"
             }
           }
         ]
@@ -98,7 +96,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Notes/16. Gaussian Unitary Ensemble/Edges of the Spectrum.md",
+            "file": "Lecture notes/Part 2.pdf",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -145,6 +143,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -156,9 +156,10 @@
   },
   "active": "8b85451a3a266294",
   "lastOpenFiles": [
-    "Notes/15. Preliminaries for part 2/Spectral statistics for Beta=2 ensembles.md",
-    "Notes/16. Gaussian Unitary Ensemble/Edges of the Spectrum.md",
     "Problems/Homework/Week 6/Week_6_qp.pdf",
+    "Notes/17. Real Wigner Matrices/Real Wigner matrices - traces, moments and combinatorics.md",
+    "Notes/16. Gaussian Unitary Ensemble/Edges of the Spectrum.md",
+    "Notes/15. Preliminaries for part 2/Spectral statistics for Beta=2 ensembles.md",
     "Problems/Homework/Week 6",
     "Problems/Homework",
     "Random Matrix Theory Notes/15. Preliminaries for part 2/Spectral statistics for Beta=2 ensembles.md",

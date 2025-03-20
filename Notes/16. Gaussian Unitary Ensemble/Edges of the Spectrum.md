@@ -84,6 +84,31 @@ This is a global regime concerning the support of the limiting normalised counti
  = -s\text{Ai}^{2}(s)+(\text{Ai}'(s))^{2} $$
  where $\text{Ai}(x)$ is the standard **Airy function**
  $$\text{Ai}(x)=\frac{1}{\pi}\int_{0}^{\infty}\cos\left( \frac{1}{3}t^{3}+xt \right)dt$$
+ >> [!tldr] Proof
+ >> Take as a starting point the integral we had before in [[Bulk of the spectrum#^15ae9d|Proposition 16.3]] i.e.
+ >> $$\rho_{N}(x)=\sqrt{ 2 }\int_{x}^{\infty}\psi_{N}^{(N)}(y)\psi_{N-1}^{(N)}(y)dy$$
+ >> We have $x=\sqrt{ 2 }+\frac{s}{\sqrt{ 2 }N^{\frac{2}{3}}}$, and we can write this by splitting the integral to some arbitrary point $A$.
+ >> $$\rho_{N}(x)=\sqrt{ 2 }\int_{\sqrt{ 2 }+\frac{s}{\sqrt{ 2 }N^{2/3}}}^{A}\psi_{N}^{(N)}(y)\psi_{N-1}^{(N)}(y)dy+\sqrt{ 2 }\int_{A}^{\infty}\psi_{N}^{(N)}(y)\psi_{N-1}^{(N)}(y)dy$$
+ >> If we include the pre-factor in the final result $\frac{1}{\sqrt{ 2 }}N^{\frac{1}{3}}$, we get
+ >> $$\rho_{N}(x)=N^{\frac{1}{3}}\int_{\sqrt{ 2 }+\frac{s}{\sqrt{ 2 }N^{2/3}}}^{A}\psi_{N}^{(N)}(y)\psi_{N-1}^{(N)}(y)dy+N^{\frac{1}{3}}\int_{A}^{\infty}\psi_{N}^{(N)}(y)\psi_{N-1}^{(N)}(y)dy$$
+ >> We can use [[Rescaling the GUE#^4722f5|Corollary 16.2 (c)]] to rewrite the $\psi$'s as
+ >> $$\psi_{N}=2^{\frac{1}{4}}N^{\frac{1}{6}}(\text{Ai}(s)+o(1))$$
+ >> and 
+ >> $$\psi_{N-1}=2^{\frac{1}{4}}(N-1)^{\frac{1}{6}}(\text{Ai}(s)+o(1))$$
+ >> where we can note that as $N\to \infty$, $(N-1)^{\frac{1}{6}}\to N^{\frac{1}{6}}$. Hence, the first integral becomes (as we go to large $N$)
+>> $$\int_{s}^{A} \text{Ai}^{2}(s)ds+o(1)$$
+>> For the second integral, we can write it as
+>> $$\rho_{N}(A)=\sqrt{ 2 }\int_{A}^{\infty}\psi_{N}(y)\psi _{N-1}(y)dy$$
+>> We can show that this vanishes for $A \to \infty$. Indeed, we can show the following bound, for any $\delta>0$ and $|x|>\sqrt{ 2 }(1+\delta)$:
+>> $$\rho_{N}(x)\leq c_{1}e^{-c_{2}Nx^{2}}$$
+>> where $c_{1},c_{1}>0$ are two constants that may depend on $\delta$. Therefore, if we take $A \to \infty$, the entire integral for $\rho_{N}(x)$ becomes:
+>> $$\lim_{ N \to \infty }  \frac{1}{\sqrt{ 2 }}N^{\frac{1}{3}}\rho_{N}\left( \sqrt{ 2 }+\frac{s}{\sqrt{ 2 }N^{\frac{2}{3}}} \right)  
+ =\int _{s} ^{\infty} \text{Ai}^{2}(y)dy$$
+ >> To obtain the second inequality, can use the fact that the Airy function satisfies the different equation $y''-xy=0$ for $y=\text{Ai}(x)$. From this, we can have the relation
+>> $$\int_{0}^{\infty}\text{Ai}(x+u)\text{Ai}(u+x)du=(\text{Ai}'(x))^{2}-\text{Ai}''(x)\text{Ai}(x)=(\text{Ai}'(x))^{2}-x\text{Ai}^{2}(x)$$
+>> which proves the second equality.
+
+^742561
 
 >[!info] Theorem 16.8 (b)
 >If $P_{N,\ell}=P^{(2)}_{N,\ell}$ is the $\ell$th marginal (see [[Spectral statistics for Beta=2 ensembles#^193f65|Corollary 15.10]]) with $\beta=2$ and $V(x)=x^{2}$, then for any $\ell \in \mathbb{N}$ we have
@@ -91,4 +116,37 @@ This is a global regime concerning the support of the limiting normalised counti
 >where 
 >$$K_{\text{Ai}}(x,y):= \int_{0}^{\infty}\text{Ai}(x+u)\text{Ai}(u+y)du=\frac{\text{Ai}(x)\text{Ai}'(y)-\text{Ai}(y)\text{Ai}'(x)}{x-y}$$
 >is the **Airy kernel**.
+>> [!tldr] Proof
+>> To prove this, in view of the determinantal formula for the $\ell$th marginal (see [[Spectral statistics for Beta=2 ensembles#^6f152f|Example 15.14]]), the second proof above in [[Edges of the Spectrum#^742561|Theorem 16.8 (a)]] can be reduced to 
+>> $$\lim_{ N \to \infty } \frac{1}{\sqrt{ 2 }N^{\frac{2}{3}}}K_{N}\left( \sqrt{ 2}+\frac{x_{j}}{\sqrt{ 2 }N^{\frac{2}{3}}} , \sqrt{ 2 }+\frac{x_{k}}{\sqrt{ 2 }N^{\frac{2}{3}}} \right) =K_{\text{Ai}}(x_{j},x_{k})$$
+>> This is shown using the [[Spectral statistics for Beta=2 ensembles#^23a96c|Christoffel-Darboux identity]] and [[Rescaling the GUE#^b993f2|Plancherel-Rotach asymptotics]]. 
 
+^802ec2
+
+
+>[!info] Theorem 16.8 (c)
+>For the *gap probability* $\mathcal{P}_{N}(\mathcal{N}_{N}(\Delta _{N})=0)$ corresponding to $\Delta_{N}=\sqrt{ 2 }+\frac{J}{\sqrt{ 2 }N^{\frac{2}{3}}}$ where $J \subset (a,b)$ with $-\infty<a<b<\infty$, we have
+>$$\lim_{ N \to \infty } \mathcal{P}_{N}(\mathcal{N}_{N}(\Delta_{N})=0)=\det(I-K_{J})$$
+>This is a [[Spectral statistics for Beta=2 ensembles#^a85492|Fredholm determinant]], with $K_{J}$ the integral operator defined by the Airy kernel $K_{\text{Ai}}$ acting on square integrable functions $f:J\to \mathbb{C}$. 
+>>[!tldr] Proof
+>>To see this, we first change variables to $y_{k}=\sqrt{ 2 }N^{\frac{2}{3}}(x_{k}-\sqrt{ 2 })$ in the $\ell$th term in the Fredholm determinant sum to obtain
+>>$$\begin{align} & \mathcal{P}_{N}(\mathcal{N}_{N}(\Delta_{N})=0)\\ & =1+\sum_{\ell=1}^{N}\frac{(-1)^{\ell}}{\ell!}\int_{J^{\ell}}\det\left( \frac{1}{\sqrt{ 2 }N^{\frac{2}{3}}} K_{N}\left( \sqrt{ 2 }+\frac{y_{j}}{\sqrt{ 2 }N^{\frac{2}{3}}} , \sqrt{ 2 }+\frac{y_{k}}{\sqrt{ 2 }N^{\frac{2}{3}}}\right)\right)_{j,k=1}^{\ell} \prod_{m=1}^{\ell}dy_{m}\end{align} $$
+>>Considering the equation in the proof in [[Edges of the Spectrum#^802ec2|Theorem 16.8 (b)]], we can see that the integrand will converge as $N\to \infty$, but we need to justify in this case that the infinite sum still converges so that the Fredholm determinant is well defined. It is indeed possible to prove that it does (*with help from lecture notes section A.2*).
+
+^aa3f97
+
+Let $\lambda_{N}^*$ be the *maximum* eigenvalue of a $N\times N$ GUE matrix $\mathcal{M}_{N}=\frac{1}{\sqrt{ N }}M_{N}$ (and so $\lambda_{N}^*$ is a random variable). Setting the rescaling 
+
+$$
+\lambda^{*}_{N} = \sqrt{ 2 }+\frac{\Lambda^{*}_{N}}{\sqrt{ 2 }N^{\frac{2}{3}}}
+$$
+
+we find from [[Edges of the Spectrum#^aa3f97|Theorem 16.8 (c)]] that the limiting cumulative distribution function for this rescaled maximum eigenvalue is 
+
+$$
+F(s):= \lim_{ N \to \infty } \mathcal{P}_{N}(\Lambda_{N}^{*}\leq s)=\lim_{ N \to \infty } \mathcal{P}_{N}\left( \mathcal{N}_{N}\left( \left( \sqrt{ 2 }+\frac{s}{\sqrt{ 2 }N^{\frac{2}{3}}} , \infty\right) \right) \right)=\det(I-K_{(s,\infty)})
+$$
+
+This distribution is known as the ($\beta=2$) **Tracy-Widom distribution**. Its analogues for the GOE and other ensembles occur in a number of interesting problems.
+
+Let's again compare to i.i.d. random variables. Let $(\lambda_{j})_{j=1}^ N$ be a collection of i.i.d. real random variables where $\lambda_{j} \sim \mathcal{G}\left( 0, \frac{1}{2N} \right)$. Define the diagonal $N\times N$ random matrix $M_{N}=(\xi_{j,k})_{j,k=1}^N$ where $\xi_{j,j}=\lambda_{j}$ and $\xi_{j,k}=0$ (so diagonal values are RVs and off diagonals are zero). Therefore, $M_{N}$ is real and symmetric with diagonal distributed identically to the normalised GUE (but the off-diagonal entries have a different distribution). What is the distribution of the maximum eigenvalue $\lambda^{*}_{N}$? It transpires that, after rescaling, this will follow a **Gumbel distribution** with density function $\exp(-(x+\exp(-x)))$.![[Screenshot 2025-03-15 at 17.09.31.png]]

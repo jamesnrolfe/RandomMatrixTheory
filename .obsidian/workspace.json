@@ -6,37 +6,54 @@
       {
         "id": "3c1092bb05404bf5",
         "type": "tabs",
+        "dimension": 49.677881173944165,
+        "children": [
+          {
+            "id": "7abb8ad83af1e728",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/17. Real Wigner Matrices/Real Wigner matrices - traces, moments and combinatorics.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Real Wigner matrices - traces, moments and combinatorics"
+            }
+          }
+        ]
+      },
+      {
+        "id": "5b4ba9ac8c1bd767",
+        "type": "tabs",
+        "dimension": 50.32211882605584,
         "children": [
           {
             "id": "84aa51a7c035837d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Notes/16. Gaussian Unitary Ensemble/Edges of the Spectrum.md",
-                "mode": "source",
-                "source": false
+                "file": "Problems/Homework/Week 8/RMT_Week_8_qp.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Edges of the Spectrum"
+              "icon": "lucide-file-text",
+              "title": "RMT_Week_8_qp"
             }
           },
           {
-            "id": "3b08ae2c43797998",
+            "id": "fb95861ea95c93db",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Notes/16. Gaussian Unitary Ensemble/Edges of the Spectrum.md",
-                "mode": "preview",
-                "source": false
+                "file": "Lecture notes/Part 2.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Edges of the Spectrum"
+              "icon": "lucide-file-text",
+              "title": "Part 2"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,7 +196,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 257.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,26 +208,39 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false,
-      "digitalgarden:Digital Garden Publication Center": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3b08ae2c43797998",
+  "active": "84aa51a7c035837d",
   "lastOpenFiles": [
-    "Notes/16. Gaussian Unitary Ensemble/Rescaling the GUE.md",
+    "Notes/17. Real Wigner Matrices/Real Wigner matrices - traces, moments and combinatorics.md",
+    "Problems/Homework/Week 8/RMT_Week_8_qp.pdf",
     "Notes/16. Gaussian Unitary Ensemble/Edges of the Spectrum.md",
+    "Lecture notes/Part 2.pdf",
+    "Notes/Proofs/Chebyshev's Inequality.md",
+    "Problems/Homework/Week 8",
+    "assets/Screenshot 2025-03-16 at 16.25.34.png",
+    "assets/Screenshot 2025-03-16 at 16.15.02.png",
+    "assets/Screenshot 2025-03-15 at 17.09.31.png",
+    "Notes/17. Real Wigner Matrices/Proof of Theorem 17.3.md",
+    "Screenshot 2025-03-16 at 16.25.34.png",
+    "Screenshot 2025-03-16 at 16.15.02.png",
+    "Notes/17. Real Wigner Matrices",
+    "Screenshot 2025-03-15 at 17.09.31.png",
     "Notes/16. Gaussian Unitary Ensemble/Bulk of the spectrum.md",
+    "Notes/15. Preliminaries for part 2/Spectral statistics for Beta=2 ensembles.md",
+    "Notes/16. Gaussian Unitary Ensemble/Rescaling the GUE.md",
+    "Problems/Homework/Week 7/Exercise sheet 7.pdf",
+    "Problems/Homework/Week 7/rmt_Week_7_qp.pdf",
+    "Problems/Homework/Week 7",
     "Notes/Extra notes/Derivation Assist/Edge integral.pdf",
     "Notes/Extra notes/Derivation Assist",
-    "Lecture notes/Part 2.pdf",
     "Problems/Homework/Week 6/Week_6_qp.pdf",
-    "Notes/15. Preliminaries for part 2/Spectral statistics for Beta=2 ensembles.md",
     "Notes/15. Preliminaries for part 2/Spectral statistics.md",
     "assets/Screenshot 2025-03-07 at 13.16.12.png",
     "Notes/Extra notes/What actually is the Haar measure?.md",
     "assets/Screenshot 2025-03-07 at 13.00.35.png",
     "Homepage.md",
-    "Notes/16. Gaussian Unitary Ensemble",
     "Notes/7. Spectral Correlation Functions/Spectral Correlation Functions.md",
     "Notes/14. Orthogonal Polynomial Techniques/Correlation functions.md",
     "Notes/Proofs/The Transposing Lemma.md",
@@ -226,19 +256,7 @@
     "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/The joint probability density function of the eigenvalues.md",
     "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/n-point correlation function as a determinant.md",
     "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Haar measure as a determinant.md",
-    "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Correlation functions revisited.md",
-    "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Correlation functions in the large N limit.md",
-    "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Correlation functions for the CUE ensemble.md",
-    "Handouts/Linear Algebra.pdf",
-    "Notes/8. Hermitian Matrices",
-    "Notes/5. One-Dimensional Probability Distributions",
-    "Notes/15. Preliminaries for part 2/Code",
-    "Notes/15. Preliminaries for part 2",
     "assets/Pasted image 20250204105934.png",
-    "assets/Screenshot 2025-02-04 at 12.20.33.png",
-    "assets/Pasted image 20250204110221.png",
-    "assets/Screenshot 2025-02-04 at 16.58.07.png",
-    "assets/Screenshot 2025-02-28 at 15.39.46.png",
-    "assets/Pasted image 20250204121731.png"
+    "assets/Screenshot 2025-02-04 at 12.20.33.png"
   ]
 }
