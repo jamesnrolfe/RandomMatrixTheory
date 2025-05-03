@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Lecture notes/Part 2.pdf"
+                "file": "Handouts/Linear Algebra.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Part 2"
+              "title": "Linear Algebra"
             }
           }
         ]
@@ -96,7 +96,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Lecture notes/Part 2.pdf",
+            "file": "Handouts/Linear Algebra.pdf",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -143,6 +143,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "callout-manager:Insert Callout": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
@@ -156,6 +157,12 @@
   },
   "active": "8b85451a3a266294",
   "lastOpenFiles": [
+    "Handouts/Hermitian and Unitary matrices.pdf",
+    "Notes/18. Stieltjes Transforms/Technical preparations.md",
+    "Notes/18. Stieltjes Transforms/The GUE semicircle law.md",
+    "Definitions.md",
+    "Notes/17. Real Wigner Matrices/Proof of Theorem 17.3.md",
+    "Lecture notes/Part 2.pdf",
     "Problems/Homework/Week 6/Week_6_qp.pdf",
     "Notes/17. Real Wigner Matrices/Real Wigner matrices - traces, moments and combinatorics.md",
     "Notes/16. Gaussian Unitary Ensemble/Edges of the Spectrum.md",
@@ -167,7 +174,6 @@
     "Random Matrix Theory Notes/15. Preliminaries for part 2/Spectral Statstics.md",
     "Random Matrix Theory Notes/15. Preliminaries for part 2/Spectral Statistics.md",
     "Random Matrix Theory Notes/15. Preliminaries for part 2/Code",
-    "Lecture notes/Part 2.pdf",
     "Random Matrix Theory Notes/12. Eigenvalue Statistics for the Unitary Group CUE/n-point correlation function as a determinant.md",
     "Random Matrix Theory Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Haar measure as a determinant.md"
   ]

@@ -20,6 +20,8 @@ where $\Delta$ is an interval of $\mathbb{R}$ and the **normalised counting meas
 $$\bar{\mathcal{N}}_{N}(\Delta):= \frac{1}{N} \mathcal{N}_{N}(\Delta)$$
 Simply put, the counting measure tells us how many eigenvalues lie in the region $\Delta$, and the normalised counting measure tells us the *fraction* of the eigenvalues that lie in that region (see [[Spectral statistics#^E15-2a| Example 15.2 (a)]]).
 
+^caaef8
+
 If $M_{N}$ is a random matrix, then the counting measure then the counting measure $\mathcal{N}_{N}(\Delta)$ of its eigenvalues is a random variable (a measurable function) for a given interval $\Delta$ and we shall index our eigenvalues in a nondecreasing order
 
 $$

@@ -18,6 +18,8 @@ The concept of a **real Wigner matrix** is a generalisation of the construction 
 Z_{k,j} & j>k \\
 Y_{j} & j=k\end{cases}$$
 
+^188072
+
 As before, we let $(\lambda_{j}(\mathcal{M}_{N}))^N_{j=1}\subset \mathbb{R}$ denote the eigenvalues of a real Wigner matrix $\mathcal{M}_{N}$, indexed in non-decreasing order i.e.
 
 $$
@@ -40,6 +42,8 @@ Recall that $\frac{t}{N}$ is the off-diagonal entry variance. In the GUE case, $
 >>[!help] Note
 >>Essentially what this is saying is that in the large $N$ limit, the normalised counting measure / linear statistic becomes (almost) equal to the integral on the right.
 
+^8bba3c
+
 An important special case is when $\varphi(x)=x^{k}$. We might see that this is unbounded, but apparently that just doesn't matter. We have the following result.
 
 >[!info] Theorem 17.3
@@ -51,13 +55,14 @@ An important special case is when $\varphi(x)=x^{k}$. We might see that this is 
 ^06ccc5
 
 So, we wan't to start calculating the moments of the semicircle law. For any $k \in \mathbb{N}$, define the *moments* of the semicircle law as
-$$m_{k}:= \int_{\mathbb{R}}x^{k}\sigma_{1}(x)dx$$ 
+$$m_{k}:= \int_{\mathbb{R}}x^{k}\sigma_{1}(x)dx$$^moments
+
 We make use of the following lemmas.
 
 >[!info] Lemma 17.4 (a)
 > For any $t>0$, we have
 > $$\int_{\mathbb{R}}x^{k}\sigma_{t}(x)dx=t^{\frac{k}{2}}m_{k}$$
-> > [!tldr] Proof
+> > [!tldr]+ Proof
 > > This first assertion comes from a change of variables. 
 > > $$\begin{align}\int_{\mathbb{R}}x^{k}\sigma_{t}(x)dx  & = \frac{1}{2\pi t}\int_{\mathbb{R}}x^{k} \sqrt{ (4t-x^{2}) } dx \\
  \end{align}$$
@@ -77,7 +82,7 @@ We make use of the following lemmas.
 >with the latter holding for $k \in \mathbb{N}$. Therefore:
 >$$m_{2k}=\frac{1}{k+1}\binom{2k}{k} =: C_{k}$$
 >where the numbers $C_{k}$ are the **Catalan numbers**.
->>[!tldr] Proof
+>>[!tldr]+ Proof
 >>The odd numbers are zero because we are integrating an odd function times an even function over $\mathbb{R}$ (giving us negative integral on one side which is equal and opposite to positive integral on the other, cancelling out to give zero overall). 
 >>For the even numbers, consider the integral
 >>$$m_{2k}=\int_{-2}^{+2} x^{2k} \sigma_{1}(x)dx$$
@@ -113,7 +118,7 @@ We can count the number of possible Dyck paths of length $2k$.
 >$$\hat{D}(z) := 1+\sum_{k=1}^{\infty}D_{k}z^{k}$$
 >satisfies, for $|z| < \frac{1}{4}$,
 >$$\hat{D}(z)=\frac{1}{2z} (1-(1-4z)^{\frac{1}{2}})$$
->>[!tldr] Proof
+>>[!tldr]+ Proof
 >>We let $B_{k}$ denote the number of Bernoulli walks $(S_{n})_{n=0}^{2k}$ (so of length $2k$) that satisfy $S_{2k}=0$. We also let $\beta_{k}$ be the number of Bernoulli walks $(S_{n})_{n=0}^{2k}$ (also of length $2k$) that satisfy $S_{2k}=0$ *and* $S_{m}<0$ for some $m<2k$ (so these are not [[Real Wigner matrices - traces, moments and combinatorics#^418ec4|Dyck paths]] since the can be negative). Evidently,
 >>$$D_{k}=B_{k}-\beta_{k}$$
 >>>[!help] Note
@@ -143,14 +148,16 @@ D_{k} & =\sum_{p=1}^{k}D_{p-1}D_{k-p}\end{align}$$
  \\
  & = z \sum_{k=0}^{\infty}\left( \sum_{p=0}^{k}D_{p}D_{k-p} \right)z^{k} \\
  \\
- & = z \left( \sum_{k=0}^{\infty}D_{k}z^{k} \right)\left( \sum_{p=0}^{\infty}D_{p}z^{k} \right)=z (\hat{D}(z))^{2}\end{align}$$
- >> and hence we are left with a quadratic 
+ & = z \left( \sum_{k=0}^{\infty}D_{k}z^{k} \right)\left( \sum_{p=0}^{\infty}D_{p}z^{p} \right)=z (\hat{D}(z))^{2}\end{align}$$
+ >> which uses the **Cauchy product of two power series** and hence we are left with a quadratic 
 >> $$z(\hat{D}(z))^{2}-\hat{D}(z)+1=0$$
 >> Solving this equation, we find
 >> $$\hat{D}(z)=\frac{1 \pm \sqrt{ 1-4z }}{2z}$$
 >> We want to keep $\hat{D}(0)=1$, and so in this case, we keep the minus sign. Then we end up with
 >> $$\hat{D}(z)=\frac{1}{2z} (1-(1-4z)^{\frac{1}{2}})$$
 >> as required.
+
+^1360ca
 
 We will also quickly define the **Stieltjes transform** $S(z)$ of the semicircle law ($t=1$) for $z \in \mathbb{C}$ such that $z \not\in [-2,2] \subset \mathbb{R}$ as 
 

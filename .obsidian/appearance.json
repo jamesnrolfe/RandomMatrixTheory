@@ -1,8 +1,11 @@
 {
-  "cssTheme": "AnuPpuccin",
+  "cssTheme": "Minimal",
   "textFontFamily": "CMU Serif",
   "baseFontSizeAction": true,
   "translucency": false,
-  "baseFontSize": 18,
-  "accentColor": "#bd6500"
+  "baseFontSize": 16,
+  "accentColor": "#bd6500",
+  "enabledCssSnippets": [
+    "Extended Color Schemes"
+  ]
 }

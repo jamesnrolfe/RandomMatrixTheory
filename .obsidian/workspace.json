@@ -4,56 +4,51 @@
     "type": "split",
     "children": [
       {
-        "id": "3c1092bb05404bf5",
+        "id": "6648bd580e5dd95d",
         "type": "tabs",
-        "dimension": 49.677881173944165,
         "children": [
           {
-            "id": "7abb8ad83af1e728",
+            "id": "01dfe7b6dc8263d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/17. Real Wigner Matrices/Real Wigner matrices - traces, moments and combinatorics.md",
+                "file": "Definitions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Definitions"
+            }
+          },
+          {
+            "id": "553b70c354b8d199",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/15. Preliminaries for part 2/Spectral Statistics.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Real Wigner matrices - traces, moments and combinatorics"
-            }
-          }
-        ]
-      },
-      {
-        "id": "5b4ba9ac8c1bd767",
-        "type": "tabs",
-        "dimension": 50.32211882605584,
-        "children": [
-          {
-            "id": "84aa51a7c035837d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Problems/Homework/Week 8/RMT_Week_8_qp.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "RMT_Week_8_qp"
+              "title": "Spectral Statistics"
             }
           },
           {
-            "id": "fb95861ea95c93db",
+            "id": "94afbe43ceb2f9db",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Lecture notes/Part 2.pdf"
+                "file": "Handouts/Linear Algebra.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Part 2"
+              "title": "Linear Algebra"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -72,7 +67,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byCreatedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -85,7 +80,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fred",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5
+    "width": 228.5
   },
   "right": {
     "id": "54c70ae345012319",
@@ -190,73 +185,86 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "2f0af26cbf4dde66",
+            "type": "leaf",
+            "state": {
+              "type": "mathpad-view",
+              "state": {},
+              "icon": "sigma",
+              "title": "Mathpad"
+            }
           }
         ],
         "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 220.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "vscode-editor:Create Code File": false,
+      "graph:Open graph view": false,
       "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "callout-manager:Insert Callout": false,
+      "mathpad:Open Mathpad": false
     }
   },
-  "active": "84aa51a7c035837d",
+  "active": "e1680bbce664b80f",
   "lastOpenFiles": [
-    "Notes/17. Real Wigner Matrices/Real Wigner matrices - traces, moments and combinatorics.md",
-    "Problems/Homework/Week 8/RMT_Week_8_qp.pdf",
-    "Notes/16. Gaussian Unitary Ensemble/Edges of the Spectrum.md",
+    "code/My code file.py",
+    "code/Untitled.md",
+    "Handouts/Linear Algebra.pdf",
+    "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Haar measure as a determinant.md",
+    "Notes/14. Orthogonal Polynomial Techniques/Correlation functions.md",
+    "Notes/Useful Theorems/Gaudin's Lemma.md",
+    "Notes/14. Orthogonal Polynomial Techniques/The joint probability density function as a determinant.md",
+    "Notes/15. Preliminaries for part 2/Spectral statistics for Beta=2 ensembles.md",
+    "Notes/15. Preliminaries for part 2/Spectral Statistics.md",
+    "Notes/14. Orthogonal Polynomial Techniques/Orthogonal polynomial techniques.md",
+    "Notes/14. Orthogonal Polynomial Techniques/Introducing orthogonal polynomials.md",
+    "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/n-point correlation function as a determinant.md",
+    "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Correlation functions in the large N limit.md",
+    "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Correlation functions for the CUE ensemble.md",
+    "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Correlation functions revisited.md",
+    "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Where we are headed.md",
+    "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/The joint probability density function of the eigenvalues.md",
+    "Notes/10. The Wigner Sumrise/The Wigner sumrise.md",
+    "Notes/9. Spacing Distribution of a Poisson Sequence/Spacing distribution of a Poisson sequence.md",
+    "Notes/8. Hermitian Matrices/Hermitian Matrices.md",
+    "Notes/8. Hermitian Matrices/The joint probability density function for the eigenvalues.md",
+    "Notes/8. Hermitian Matrices/The 2 by 2 Gaussian ensemble.md",
+    "Notes/7. Spectral Correlation Functions/Spectral Correlation Functions.md",
+    "Notes/6. Higher Dimensional Random Variables/Higher dimensional random variables.md",
+    "Notes/5. One-Dimensional Probability Distributions/One-dimensional probability distributions.md",
+    "Notes/4. Introduction to Eigenvalue Statistics/Introduction to eigenvalue statistics.md",
+    "Handouts/Hermitian and Unitary matrices.pdf",
+    "Notes/17. Real Wigner Matrices/Proof of Theorem 17.3.md",
     "Lecture notes/Part 2.pdf",
-    "Notes/Proofs/Chebyshev's Inequality.md",
-    "Problems/Homework/Week 8",
+    "Problems/Homework/Week 9/RMT_Week_9.pdf",
+    "Misc. Definitions",
+    "code/wigner_semicircle_law.ipynb",
+    "Notes/18. Stieltjes Transforms",
+    "assets/Screenshot 2025-03-21 at 14.19.14.png",
+    "code/q1_ex_sh_9.ipynb",
+    "code",
+    "assets/Screenshot 2025-03-23 at 13.05.46.png",
+    "assets/Screenshot 2025-03-23 at 12.44.38.png",
+    "assets/Screenshot 2025-03-23 at 12.28.10.png",
     "assets/Screenshot 2025-03-16 at 16.25.34.png",
     "assets/Screenshot 2025-03-16 at 16.15.02.png",
     "assets/Screenshot 2025-03-15 at 17.09.31.png",
-    "Notes/17. Real Wigner Matrices/Proof of Theorem 17.3.md",
     "Screenshot 2025-03-16 at 16.25.34.png",
     "Screenshot 2025-03-16 at 16.15.02.png",
-    "Notes/17. Real Wigner Matrices",
-    "Screenshot 2025-03-15 at 17.09.31.png",
-    "Notes/16. Gaussian Unitary Ensemble/Bulk of the spectrum.md",
-    "Notes/15. Preliminaries for part 2/Spectral statistics for Beta=2 ensembles.md",
-    "Notes/16. Gaussian Unitary Ensemble/Rescaling the GUE.md",
-    "Problems/Homework/Week 7/Exercise sheet 7.pdf",
-    "Problems/Homework/Week 7/rmt_Week_7_qp.pdf",
-    "Problems/Homework/Week 7",
-    "Notes/Extra notes/Derivation Assist/Edge integral.pdf",
-    "Notes/Extra notes/Derivation Assist",
-    "Problems/Homework/Week 6/Week_6_qp.pdf",
-    "Notes/15. Preliminaries for part 2/Spectral statistics.md",
-    "assets/Screenshot 2025-03-07 at 13.16.12.png",
-    "Notes/Extra notes/What actually is the Haar measure?.md",
-    "assets/Screenshot 2025-03-07 at 13.00.35.png",
-    "Homepage.md",
-    "Notes/7. Spectral Correlation Functions/Spectral Correlation Functions.md",
-    "Notes/14. Orthogonal Polynomial Techniques/Correlation functions.md",
-    "Notes/Proofs/The Transposing Lemma.md",
-    "Notes/Proofs/Gaudin's Lemma.md",
-    "Notes/Proofs/Andreief's Identity.md",
-    "Notes/15. Preliminaries for part 2/Code/Coded Example 15.2 (b).md",
-    "Notes/14. Orthogonal Polynomial Techniques/The joint probability density function as a determinant.md",
-    "Notes/14. Orthogonal Polynomial Techniques/Orthogonal polynomial techniques.md",
-    "Notes/14. Orthogonal Polynomial Techniques/Introducing orthogonal polynomials.md",
-    "Notes/13. Averages over U(N) (CUE)/Example - Average over U(N).md",
-    "Notes/13. Averages over U(N) (CUE)/Averages over U(N) as determinants.md",
-    "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Where we are headed.md",
-    "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/The joint probability density function of the eigenvalues.md",
-    "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/n-point correlation function as a determinant.md",
-    "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Haar measure as a determinant.md",
-    "assets/Pasted image 20250204105934.png",
-    "assets/Screenshot 2025-02-04 at 12.20.33.png"
+    "Screenshot 2025-03-15 at 17.09.31.png"
   ]
 }
