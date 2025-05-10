@@ -1,11 +1,71 @@
 {
   "callouts": {
-    "custom": [],
+    "custom": [
+      "proof"
+    ],
     "settings": {
       "note": [
         {
           "changes": {
             "color": "182, 201, 226"
+          }
+        }
+      ],
+      "proof": [
+        {
+          "changes": {
+            "icon": "math-integral-x"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "166, 189, 197"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "166, 189, 197"
+          }
+        }
+      ],
+      "example": [
+        {
+          "changes": {
+            "color": "68, 207, 110"
+          }
+        }
+      ],
+      "info": [
+        {
+          "changes": {
+            "color": "233, 151, 63"
+          }
+        }
+      ],
+      "summary": [
+        {
+          "changes": {
+            "color": "168, 130, 255"
+          }
+        }
+      ],
+      "help": [
+        {
+          "changes": {
+            "color": "158, 158, 158"
+          }
+        }
+      ],
+      "check": [
+        {
+          "changes": {
+            "color": "208, 181, 48"
           }
         }
       ]

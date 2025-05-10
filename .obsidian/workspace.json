@@ -11,28 +11,10 @@
             "id": "01dfe7b6dc8263d9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Definitions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Definitions"
-            }
-          },
-          {
-            "id": "553b70c354b8d199",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/15. Preliminaries for part 2/Spectral statistics for Beta=2 ensembles.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Spectral statistics for Beta=2 ensembles"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -49,8 +31,7 @@
               "title": "Proof of Theorem 17.3 1"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -169,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/16. Gaussian Unitary Ensemble/Edges of the Spectrum.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Edges of the Spectrum"
+              "title": "Outline"
             }
           },
           {
@@ -200,22 +180,24 @@
       "graph:Open graph view": false,
       "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
+      "canvas:Create new canvas": true,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
-      "callout-manager:Insert Callout": false,
-      "obsidian42-brat:BRAT": false,
-      "jupyter:Start Jupyter Server": false,
-      "jupyter:Create Jupyter Notebook": false
+      "callout-manager:Insert Callout": true,
+      "obsidian42-brat:BRAT": true,
+      "jupyter:Start Jupyter Server": true,
+      "jupyter:Create Jupyter Notebook": true
     }
   },
-  "active": "2f0010b205baf9b1",
+  "active": "01dfe7b6dc8263d9",
   "lastOpenFiles": [
-    "Notes/17. Real Wigner Matrices/Proof of Theorem 17.3.md",
+    "Definitions.md",
+    "Notes/15. Preliminaries for part 2/Spectral statistics for Beta=2 ensembles.md",
     "Notes/17. Real Wigner Matrices/Proof of Theorem 17.3 1.md",
+    "Notes/17. Real Wigner Matrices/Proof of Theorem 17.3.md",
     "Notes/16. Gaussian Unitary Ensemble/Bulk of the spectrum.md",
     "Lecture notes/Part 2 (updatesd).pdf",
     "Notes/Extra notes/What actually is the Haar measure?.md",
@@ -230,7 +212,6 @@
     "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/The joint probability density function of the eigenvalues.md",
     "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Correlation functions for the CUE ensemble.md",
     "Notes/8. Hermitian Matrices/The joint probability density function for the eigenvalues.md",
-    "Notes/15. Preliminaries for part 2/Spectral statistics for Beta=2 ensembles.md",
     "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Haar measure as a determinant.md",
     "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Correlation functions in the large N limit.md",
     "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Correlation functions revisited.md",
@@ -245,7 +226,6 @@
     "Notes/7. Spectral Correlation Functions/Spectral Correlation Functions.md",
     "Notes/6. Higher Dimensional Random Variables/Higher dimensional random variables.md",
     "Notes/14. Orthogonal Polynomial Techniques/The joint probability density function as a determinant.md",
-    "Notes/4. Introduction to Eigenvalue Statistics/Introduction to eigenvalue statistics.md",
     "code/wigner_semicircle_law.ipynb",
     "code/q1_ex_sh_9.ipynb",
     "code/Jupyter Notebook 2025-05-03-08-36-08.ipynb",

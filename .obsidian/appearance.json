@@ -3,7 +3,7 @@
   "textFontFamily": "Open Sans",
   "baseFontSizeAction": true,
   "translucency": false,
-  "baseFontSize": 16,
+  "baseFontSize": 18,
   "accentColor": "#bd6500",
   "enabledCssSnippets": [
     "Extended Color Schemes"

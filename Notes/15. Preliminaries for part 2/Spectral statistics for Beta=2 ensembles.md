@@ -4,7 +4,6 @@ dg-publish: true
 #Notes 
 
 In this section, we will review and generalise some results from the first part of the course. Then, we apply orthogonal polynomials to understand various spectral statistics (e.g. the expected value of the normalised counting measure, or occupation probabilities) for $\beta=2$ ensembles like the GUE. 
-
 ##### Joint eigenvalue probability density
 
 Recall that the [[Hermitian Matrices#^90b71a|Gaussian Orthogonal Ensemble]], GOE. This is the collection of all $N\times N$ symmetric matrices $M_{N}=(m_{ij})_{1\leq i,j\leq N}$ whose upper triangular entires are independently
@@ -310,7 +309,7 @@ There are three things to prove here, so we separate them out. For all of them, 
  >In particular, the expectation of the normalised counting measure can be written as 
  >$$ \mathbb{E}_{N}[\bar{\mathcal{N}}_{N}(\Delta)]=\int_{\Delta}\rho_{N}(x)dx$$
  >Further, we have the inequality $|K_{N}(x,y)|^{2}\leq K_{N}(x,x)K_{N}(y,y)=N^{2}\rho_{N}(x)\rho_{N}(y)$.
- >> [!tldr] Proof of the first statement
+ >> [!proof]- Proof of the first statement
  >> We can firstly note that $\mathcal{N}_{N}(\Delta)=\sum_{j=1}^{N}\varphi(\lambda_{j})$ from [[Spectral statistics#^9cac02|definition 15.3]]. It follows, using linearity of the expectation value that 
  >> $$\mathbb{E}_{N}[\mathcal{N}_{N}(\Delta)] = \sum^{N}_{j=1} \mathbb{E}_{N}[\varphi(\lambda_{j})]$$
  >> All the eigenvalues here are *identically distributed* (although not independently for $\beta=2$ ensembles). The expectation value inside the sum can be written as 
@@ -450,7 +449,7 @@ where the contour $\Gamma=S_{1}=\{ z \in \mathbb{C}:|z|=1 \}$ i.e. the unit circ
 >$$\frac{1}{\gamma_{j}^{2}}:= \sqrt{  \pi} 2^{j}j!$$
 > In particular, the coefficient $a_{j}$ in the [[Spectral statistics for Beta=2 ensembles#^23a96c|three term recurrence relation]] for $(p_{j})_{j=0}^{\infty}$ equals
 > $$a_{j}=\sqrt{ \frac{j}{2} }$$
-> >[!tldr] Proof
+> >[!proof]-
 > > We will state without proof that the Hermite polynomials obey 
 > > $$\int_{\mathbb{R}}H_{j}(x)H_{k}(x)e^{-x^{2}}dx=\sqrt{ \pi }2^{j}j! \delta_{j,k}$$
 > > i.e. they are orthogonal to each other! Recall that 
