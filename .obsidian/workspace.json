@@ -27,24 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/15. Preliminaries for part 2/Spectral Statistics.md",
+                "file": "Notes/15. Preliminaries for part 2/Spectral statistics for Beta=2 ensembles.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Spectral Statistics"
+              "title": "Spectral statistics for Beta=2 ensembles"
             }
           },
           {
-            "id": "94afbe43ceb2f9db",
+            "id": "2f0010b205baf9b1",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Handouts/Linear Algebra.pdf"
+                "file": "Notes/17. Real Wigner Matrices/Proof of Theorem 17.3 1.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Linear Algebra"
+              "icon": "lucide-file",
+              "title": "Proof of Theorem 17.3 1"
             }
           }
         ],
@@ -80,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "airy",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228.5
+    "width": 204.5110321044922
   },
   "right": {
     "id": "54c70ae345012319",
@@ -185,16 +187,6 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
-          {
-            "id": "2f0af26cbf4dde66",
-            "type": "leaf",
-            "state": {
-              "type": "mathpad-view",
-              "state": {},
-              "icon": "sigma",
-              "title": "Mathpad"
-            }
           }
         ],
         "currentTab": 4
@@ -205,7 +197,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "vscode-editor:Create Code File": false,
       "graph:Open graph view": false,
       "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
@@ -216,47 +207,50 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
       "callout-manager:Insert Callout": false,
-      "mathpad:Open Mathpad": false
+      "obsidian42-brat:BRAT": false,
+      "jupyter:Start Jupyter Server": false,
+      "jupyter:Create Jupyter Notebook": false
     }
   },
-  "active": "e1680bbce664b80f",
+  "active": "2f0010b205baf9b1",
   "lastOpenFiles": [
-    "code/My code file.py",
-    "code/Untitled.md",
-    "Handouts/Linear Algebra.pdf",
-    "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Haar measure as a determinant.md",
-    "Notes/14. Orthogonal Polynomial Techniques/Correlation functions.md",
-    "Notes/Useful Theorems/Gaudin's Lemma.md",
-    "Notes/14. Orthogonal Polynomial Techniques/The joint probability density function as a determinant.md",
-    "Notes/15. Preliminaries for part 2/Spectral statistics for Beta=2 ensembles.md",
-    "Notes/15. Preliminaries for part 2/Spectral Statistics.md",
+    "Notes/17. Real Wigner Matrices/Proof of Theorem 17.3.md",
+    "Notes/17. Real Wigner Matrices/Proof of Theorem 17.3 1.md",
+    "Notes/16. Gaussian Unitary Ensemble/Bulk of the spectrum.md",
+    "Lecture notes/Part 2 (updatesd).pdf",
+    "Notes/Extra notes/What actually is the Haar measure?.md",
+    "Lecture notes/Part 1.pdf",
+    "Notes/Extra notes/Derivation Assist/Edge integral.pdf",
+    "Notes/17. Real Wigner Matrices/Proof of Theorem 17.2.md",
+    "Notes/16. Gaussian Unitary Ensemble/Edges of the Spectrum.md",
+    "Notes/16. Gaussian Unitary Ensemble/Rescaling the GUE.md",
     "Notes/14. Orthogonal Polynomial Techniques/Orthogonal polynomial techniques.md",
     "Notes/14. Orthogonal Polynomial Techniques/Introducing orthogonal polynomials.md",
-    "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/n-point correlation function as a determinant.md",
-    "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Correlation functions in the large N limit.md",
-    "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Correlation functions for the CUE ensemble.md",
-    "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Correlation functions revisited.md",
-    "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Where we are headed.md",
+    "Notes/14. Orthogonal Polynomial Techniques/Correlation functions.md",
     "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/The joint probability density function of the eigenvalues.md",
-    "Notes/10. The Wigner Sumrise/The Wigner sumrise.md",
-    "Notes/9. Spacing Distribution of a Poisson Sequence/Spacing distribution of a Poisson sequence.md",
-    "Notes/8. Hermitian Matrices/Hermitian Matrices.md",
+    "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Correlation functions for the CUE ensemble.md",
     "Notes/8. Hermitian Matrices/The joint probability density function for the eigenvalues.md",
-    "Notes/8. Hermitian Matrices/The 2 by 2 Gaussian ensemble.md",
+    "Notes/15. Preliminaries for part 2/Spectral statistics for Beta=2 ensembles.md",
+    "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Haar measure as a determinant.md",
+    "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Correlation functions in the large N limit.md",
+    "Notes/12. Eigenvalue Statistics for the Unitary Group CUE/Correlation functions revisited.md",
+    "Notes/13. Averages over U(N) (CUE)/Averages over U(N) as determinants.md",
+    "Notes/13. Averages over U(N) (CUE)/Example - Average over U(N).md",
+    "Notes/15. Preliminaries for part 2/Spectral Statistics.md",
+    "Lecture notes/Part 2.pdf",
+    "Notes/18. Stieltjes Transforms/Technical preparations.md",
+    "Notes/18. Stieltjes Transforms/The GUE semicircle law.md",
+    "Handouts/Hermitian and Unitary matrices.pdf",
+    "Handouts/Linear Algebra.pdf",
     "Notes/7. Spectral Correlation Functions/Spectral Correlation Functions.md",
     "Notes/6. Higher Dimensional Random Variables/Higher dimensional random variables.md",
-    "Notes/5. One-Dimensional Probability Distributions/One-dimensional probability distributions.md",
+    "Notes/14. Orthogonal Polynomial Techniques/The joint probability density function as a determinant.md",
     "Notes/4. Introduction to Eigenvalue Statistics/Introduction to eigenvalue statistics.md",
-    "Handouts/Hermitian and Unitary matrices.pdf",
-    "Notes/17. Real Wigner Matrices/Proof of Theorem 17.3.md",
-    "Lecture notes/Part 2.pdf",
-    "Problems/Homework/Week 9/RMT_Week_9.pdf",
-    "Misc. Definitions",
     "code/wigner_semicircle_law.ipynb",
-    "Notes/18. Stieltjes Transforms",
-    "assets/Screenshot 2025-03-21 at 14.19.14.png",
     "code/q1_ex_sh_9.ipynb",
-    "code",
+    "code/Jupyter Notebook 2025-05-03-08-36-08.ipynb",
+    "code/Jupyter Notebook 2025-05-03-08-32-44.ipynb",
+    "assets/Screenshot 2025-03-21 at 14.19.14.png",
     "assets/Screenshot 2025-03-23 at 13.05.46.png",
     "assets/Screenshot 2025-03-23 at 12.44.38.png",
     "assets/Screenshot 2025-03-23 at 12.28.10.png",

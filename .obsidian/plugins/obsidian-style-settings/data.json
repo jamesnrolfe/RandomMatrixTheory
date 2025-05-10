@@ -66,5 +66,6 @@
   "minimal-style@@inline-title-font": "CMU Serif Extra",
   "minimal-advanced@@styled-scrollbars": true,
   "minimal-style@@vault-profile-display": "vault-profile-default",
-  "minimal-style@@hide-help": true
+  "minimal-style@@hide-help": true,
+  "things-style@@default-font-color": true
 }

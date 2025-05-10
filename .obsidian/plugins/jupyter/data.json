@@ -1,0 +1,19 @@
+{
+  "pythonExecutable": "path",
+  "pythonExecutablePath": "/Users/jamesneville-rolfe/anaconda3/bin/python3",
+  "startJupyterAuto": true,
+  "jupyterEnvType": "lab",
+  "useSimpleMode": true,
+  "deleteCheckpoints": true,
+  "moveCheckpointsToTrash": true,
+  "checkpointsFolder": "",
+  "updatePopup": true,
+  "displayServerRibbonIcon": true,
+  "useStatusNotices": true,
+  "displayFileRibbonIcon": true,
+  "displayFolderContextMenuItem": true,
+  "openCreatedFileMode": "current-tab",
+  "jupyterTimeoutMs": 30000,
+  "debugConsole": true,
+  "knownVersion": ""
+}

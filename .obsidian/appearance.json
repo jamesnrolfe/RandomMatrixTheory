@@ -1,11 +1,13 @@
 {
-  "cssTheme": "Minimal",
-  "textFontFamily": "CMU Serif",
+  "cssTheme": "Things",
+  "textFontFamily": "Open Sans",
   "baseFontSizeAction": true,
   "translucency": false,
   "baseFontSize": 16,
   "accentColor": "#bd6500",
   "enabledCssSnippets": [
     "Extended Color Schemes"
-  ]
+  ],
+  "interfaceFontFamily": "Open Sans",
+  "monospaceFontFamily": "Fira Code"
 }
